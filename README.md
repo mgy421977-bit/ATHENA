@@ -81,6 +81,10 @@ Citation
   howpublished = {\url{https://github.com/mgy421977-bit/ATHENA}}
 }
 ```
+## Simulations
+
+- **Black hole magnetic equator:** [`blackhole_magnetic_equator.py`](simulations/blackhole_magnetic_equator.py)  
+  Demonstrates the Magnetic Equator Theorem: for a SMBH with spin a=0.9, the toroidal field dominates at the equator, producing a logarithmic spiral with 4 arms – the geometric origin of galactic spiral structure and the dark matter illusion.
 
 ---
 
