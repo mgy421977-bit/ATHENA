@@ -35,3 +35,58 @@ This hypothesis remains under active investigation and should be considered expl
 ---
 
 ## Repository Structure
+
+```
+
+ATHENA/
+├── preprints/          (V25.13 PDF - to be added)
+├── manifesto/          (V26.md – ontological manifesto)
+├── athena/             (Python modules: field_solver, rotation_curves, likelihood)
+├── scripts/            (run_sparc_fit.py)
+├── tests/              (test_gr_limit.py)
+└── README.md
+
+```
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/mgy421977-bit/ATHENA.git
+cd ATHENA
+pip install numpy scipy pandas matplotlib
+python scripts/run_sparc_fit.py
+python -m athena.tests.test_gr_limit
+```
+
+---
+
+Documentation
+
+· Preprint: ATHENA V25.13 (link will be added when online)
+· Ontological Manifesto: ATHENA V26 – Işık Neden Dönüyor?
+
+---
+
+Citation
+
+```bibtex
+@misc{Yilmaz2026ATHENA,
+  author = {Mustafa Gökhan Yılmaz},
+  title = {ATHENA V25.13: Scalar–Disformal Vacuum Field Theory},
+  year = {2026},
+  note = {Research Repository},
+  howpublished = {\url{https://github.com/mgy421977-bit/ATHENA}}
+}
+```
+
+---
+
+License
+
+All Rights Reserved.
+
+Commercial use, redistribution, derivative works, or integration into third-party systems require explicit written permission from the author. See LICENSE for details.
+
+```
