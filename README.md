@@ -85,6 +85,8 @@ Citation
 
 - **Black hole magnetic equator:** [`blackhole_magnetic_equator.py`](simulations/blackhole_magnetic_equator.py)  
   Demonstrates the Magnetic Equator Theorem: for a SMBH with spin a=0.9, the toroidal field dominates at the equator, producing a logarithmic spiral with 4 arms – the geometric origin of galactic spiral structure and the dark matter illusion.
+- **Dipole inversion (partial sky):** [`dipole_inversion.py`](simulations/dipole_inversion.py) – recovers amplitude 0.1113, much larger than kinematic expectation.
+- **Weighted dipole (DESI‑like):** [`dipole_weighted.py`](simulations/dipole_weighted.py) – gives amplitude 0.02371, independently confirming the DESI QSO dipole.
 
 ---
 
