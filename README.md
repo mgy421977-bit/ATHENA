@@ -95,6 +95,9 @@ Citation
 - **Weighted dipole (DESI‑like):** [`dipole_weighted.py`](simulations/dipole_weighted.py)  
   Simple weighted‑QSO analysis giving amplitude 0.02371, independently confirming the DESI QSO dipole.
 
+- **β_em from tokamak stability (Appendix N):** [`beta_em_tokamak_appendix_N.py`](simulations/beta_em_tokamak_appendix_N.py)  
+  Derives β_em = 0.14 from the Kruskal–Shafranov stability criterion (q=1, R/a≈7.1), independently confirming that the universe behaves as a marginally stable toroidal plasma. Used in V25.13 Appendix N.
+
 License
 
 All Rights Reserved.
