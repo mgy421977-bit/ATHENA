@@ -98,6 +98,9 @@ Citation
 - **β_em from tokamak stability (Appendix N):** [`beta_em_tokamak_appendix_N.py`](simulations/beta_em_tokamak_appendix_N.py)  
   Derives β_em = 0.14 from the Kruskal–Shafranov stability criterion (q=1, R/a≈7.1), independently confirming that the universe behaves as a marginally stable toroidal plasma. Used in V25.13 Appendix N.
 
+- **Rotation curve formula from Lagrangian (Appendix O):** [`a_phi_derivation.py`](simulations/a_phi_derivation.py)  
+  Derives the analytical form \(v^2(r) = GM/r + A·r/(r+r_s)\) from the screened Poisson equation (Yukawa) that follows from the ATHENA Lagrangian. Numerical comparison gives \(R^2 \approx 0.0071\), confirming that the formula is not ad‑hoc but a direct consequence of the field equations. Used in V25.13 Appendix O.  
+
 License
 
 All Rights Reserved.
