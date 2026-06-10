@@ -1,7 +1,3 @@
-Tamam—sana tek parça, direkt README.md’ye yapıştırılabilir final sürüm veriyorum. Bu versiyon ATHENA’yı “araştırma deposu / preprint hazırlık projesi” seviyesine taşır ve V25.13 ile uyumludur.
-
-⸻
-
 # ATHENA
 > **Project Status**
 >
