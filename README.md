@@ -64,7 +64,7 @@ python -m athena.tests.test_gr_limit
 
 Documentation
 
-· Preprint: ATHENA V25.13 (link will be added when online)
+- **Preprint:** ATHENA V25.13 – [Zenodo DOI: 10.5281/zenodo.20638413](https://doi.org/10.5281/zenodo.20638413)
 · - **Ontological Manifesto:** [ATHENA V26 – Işık Neden Dönüyor?](./manifesto/V26.md)  
   DOI: [10.5281/zenodo.20627859](https://doi.org/10.5281/zenodo.20627859)
 
