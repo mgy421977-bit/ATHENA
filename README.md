@@ -66,6 +66,7 @@ python -m athena.tests.test_gr_limit
 
 - **Preprint:** ATHENA V25.13 – [Zenodo DOI: 10.5281/zenodo.20638413](https://doi.org/10.5281/zenodo.20638413)
 - **Ontological Manifesto:** [ATHENA V26 – Işık Neden Dönüyor?](https://doi.org/10.5281/zenodo.20627859) – DOI: [10.5281/zenodo.20627859](https://doi.org/10.5281/zenodo.20627859)
+- - **One‑page summary:** [ATHENA_Universal_Folding.pdf](./ATHENA_Universal_Folding.pdf)
 
 Citation
 
