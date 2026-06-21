@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-V7.2%20FINAL-blue)
 ![Status](https://img.shields.io/badge/status-Grand%20Unified%20Theory-green)
-![License](https://img.shields.io/badge/license-All_Rights_Reserved-red)
+![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **A Grand Unified Topological Theory of Disformal Toroidal Vacuum**
 
@@ -54,11 +54,15 @@ No particle dark matter or cosmological constant is required.
 ## Repository Contents
 
 ### v7.2_final/ (Current Release)
-- `Final.pdf` — Compiled paper (8 pages)
+- `Final.pdf` — Compiled paper **(16 pages)** — Grand Unified Topological Theory
 - `Final.tex` — Full LaTeX source
 
+### Simulations (Python)
+- `athena_filament_simulation.py` — Oxford rotating cosmic filament analysis
+- `central_concentration_analysis.py` — CMB + Quasar dipole (3σ confirmation)
+- `frb_advanced_detector.py` — FRB periodicity & XENONnT correlation
+
 ### Other Contents
-- Simulation codes (Colab notebooks)
 - Previous versions in `/archive`
 
 ---
