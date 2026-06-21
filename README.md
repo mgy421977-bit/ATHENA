@@ -53,7 +53,11 @@ No particle dark matter or cosmological constant is required.
 
 ## Repository Contents
 
-- `v7.2_final/` → Full LaTeX source + compiled PDF (8 pages)
+### v7.2_final/ (Current Release)
+- `Final.pdf` — Compiled paper (8 pages)
+- `Final.tex` — Full LaTeX source
+
+### Other Contents
 - Simulation codes (Colab notebooks)
 - Previous versions in `/archive`
 
