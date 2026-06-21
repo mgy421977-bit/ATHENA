@@ -53,8 +53,7 @@ No particle dark matter or cosmological constant is required.
 
 ## Repository Contents
 
-- `athena_v7.2_final.tex` — Full LaTeX source
-- `athena_v7.2_final.pdf` — Compiled paper (8 pages)
+- `v7.2_final/` → Full LaTeX source + compiled PDF (8 pages)
 - Simulation codes (Colab notebooks)
 - Previous versions in `/archive`
 
@@ -62,7 +61,7 @@ No particle dark matter or cosmological constant is required.
 
 ## Zenodo DOI (V7.2 FINAL)
 
-**Coming soon** — New DOI will be issued for this major release.
+**New DOI will be issued** for this major release.
 
 ---
 
