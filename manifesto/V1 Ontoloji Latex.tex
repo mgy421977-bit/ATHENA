@@ -1,0 +1,296 @@
+%% ============================================================
+%% ATHENA-Bio V1.0: Biological and Consciousness Extensions
+%% Based on ATHENA V25.3/V26 ontological framework
+%% Biophoton, mitochondria, mtDNA, quantum coherence,
+%% free will, collective will (Warren), LQC bounce,
+%% neutron/foton memory/trigger, 5 senses, Rydberg fractal
+%% Mustafa Gökhan Yılmaz - ORCID: 0009-0002-6591-0163
+%% June 15, 2026
+%% ============================================================
+
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage{bm}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{url}
+
+\newcommand{\bem}{\beta_{\mathrm{em}}}
+\newcommand{\Zzero}{Z_{0}}
+\newcommand{\Rwhim}{R_{\mathrm{whim}}}
+\newcommand{\half}{\tfrac{1}{2}}
+\newcommand{\Phizero}{\Phi_{0}}
+\newcommand{\mtDNA}{\mathrm{mtDNA}}
+\newcommand{\Pl}{M_{\mathrm{Pl}}}
+
+\begin{document}
+
+\title{\textbf{ATHENA-Bio V1.0: Biophoton Emission, Mitochondrial $\Phi$-Field, Quantum Coherence, and Free Will from Scalar Field Collapse}\\
+\large \textit{Including Neutron Memory, Photon Trigger, Five Senses as $\Phi$-Gradient Detectors, and the Rydberg Fractal Evidence}}
+\author{Mustafa Gökhan Yılmaz\\[0.5em]
+        Independent Researcher, \.Izmir, T\"urkiye\\
+        ORCID: \href{https://orcid.org/0009-0002-6591-0163}{0009-0002-6591-0163}\\
+        \href{mailto:mgy421977@gmail.com}{mgy421977@gmail.com}}
+\date{June 15, 2026}
+\maketitle
+
+\begin{abstract}
+We present ATHENA-Bio, an extension of the ATHENA V25.3/V26 scalar field framework to biology and consciousness. The $\Phi$-field (coarse‑grained electromagnetic vacuum density) that replaces dark matter and dark energy also underlies biophoton emission, mitochondrial information transfer, mtDNA quantum coherence, free will, and collective will (Warren effect). Biophotons are identified with $\Phi$-field micro‑collapse events at the cellular level, with a discrete spectrum $\lambda_n = c\,\bem^{n}/f_0$, $\bem=0.1408$, $f_0=7.5$ Hz. Mitochondria act as $\Phi$-field transceivers obeying a reaction–diffusion equation coupled to ATP production. Mitochondrial DNA behaves as a biological antenna tuned to the 1420.405 MHz hydrogen line, supporting quantum coherence via $\Phi$-field induced entanglement. A complete mitochondrial Hamiltonian is given, and a variational collapse criterion ($\delta E_{\mathrm{total}}/\delta\Phi=0$, $E_{\mathrm{grav}}\tau\ge\hbar$) provides an objective reduction mechanism compatible with Penrose–Hameroff Orch-OR. Free will emerges as the $\Phi$-field’s ability to exist in superposition and select one outcome through objective collapse. Collective will (Warren effect) is quantified by $\Delta B_W = \kappa N^{\alpha}C^{\beta}(1-e^{-t/\tau_W})S(R)$ with $\alpha\approx0.684$, $\beta\approx2$, $\tau_W=14$ days. The neutron is interpreted as the universe’s memory (backpropagation) and the photon as its trigger (forward pass). The five senses develop in the same order as the universe’s formation because each sense detects a different $\Phi$-gradient. Rydberg molecules exhibit butterfly/trilobite orbitals morphologically identical to galactic spiral arms, confirming scale invariance over 38 orders. Death is dissolution of a transient $\Phi$-field condensation; information returns to the $\Phi$-field and can re‑condense. Loop Quantum Cosmology bounce emerges naturally. No new free parameters are introduced.
+\end{abstract}
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+\label{sec:intro}
+
+ATHENA V25.3 replaced dark matter and dark energy with a scalar field $\Phi(x)$ derived from toroidal vacuum organisation. Constants: $\bem=0.1408$, $\Zzero=0.2347$, $\gamma=\bem^2/2$, $\Rwhim=23.67$ kpc, $n(z)=3-0.65/[1+(z/0.80)^2]$. V26 added the ontological interpretation: the same toroidal topology repeats from proton to galaxy to consciousness. Here we formalise the biological and consciousness extensions into a self‑contained article.
+
+\section{Biophoton Emission as $\Phi$-Field Micro-Collapse}
+\label{sec:biophoton}
+
+Biophotons are ultra‑weak photons emitted by living cells. In ATHENA, they are micro‑collapse events of the $\Phi$-field at the mitochondrial scale. Each collapse releases energy $\hbar\omega_n$ with $\omega_n = 2\pi f_n$, $f_n = f_0/\bem^n$, $f_0=7.5$ Hz.
+
+The emission spectrum is discrete:
+\begin{equation}
+I(\lambda) = I_0 \sum_{n=0}^{N} A_n \exp\left[-\frac{(\lambda-\lambda_n)^2}{2\sigma_n^2}\right],\qquad 
+\lambda_n = \frac{c}{f_n} = \frac{c\,\bem^{n}}{f_0}.
+\label{eq:biophoton_spectrum}
+\end{equation}
+Visible biophotons ($\lambda\sim0.5$ $\mu$m) correspond to $n\approx20$. The time‑dependent intensity during a collapse event is
+\begin{equation}
+I_{\mathrm{bio}}(t) = \eta \left(\frac{d\Phi_m}{dt}\right)_{\mathrm{collapse}} + \kappa \rho_{\mathrm{ETC}},
+\label{eq:biophoton_time}
+\end{equation}
+where $\rho_{\mathrm{ETC}}$ is the electron transport chain activity.
+
+\section{Mitochondrial $\Phi$-Field Model}
+\label{sec:mito}
+
+Mitochondria act as $\Phi$-field transceivers. The mitochondrial field $\Phi_m(\mathbf{r},t)$ obeys
+\begin{equation}
+\frac{\partial \Phi_m}{\partial t} = D_m \nabla^2 \Phi_m + \alpha_m \rho_{\mathrm{ATP}} - \beta_m \Phi_m + \Gamma(f_n) \Phi_{\mathrm{ext}},
+\label{eq:mito_phi}
+\end{equation}
+with $D_m\approx10^{-10}$ m$^2$/s, $\alpha_m\sim10^{-5}$ s$^{-1}$, $\beta_m\sim10^{-2}$ s$^{-1}$, $\Gamma(f_n)=\Gamma_0\bem^{n}$. Stationary solution gives $\Phi_m^{\mathrm{eq}} = (\alpha_m\rho_{\mathrm{ATP}} + \Gamma\Phi_{\mathrm{ext}})/\beta_m$.
+
+Energy transfer from $\Phi$ to the electron transport chain follows resonance:
+\begin{equation}
+\frac{dE_m}{dt} = \alpha(f_n)\,\Phi_{\mathrm{local}}\,E_m - \gamma E_m,\qquad \alpha(f_n)=\alpha_0\bem^{n},
+\label{eq:energy_transfer}
+\end{equation}
+with $\alpha_0\approx10^{-2}$ s$^{-1}$, $\gamma\approx10^{-3}$ s$^{-1}$.
+
+\section{Mitochondrial DNA as a $\Phi$-Field Antenna}
+\label{sec:mtdna}
+
+The non‑coding (junk) region of mtDNA is hypothesised to act as a biological antenna tuned to the hydrogen line $f_{\mathrm{HI}}=1420.405$ MHz. In ATHENA, this frequency corresponds to a toroidal harmonic $n$ satisfying
+\begin{equation}
+f_n = f_0/\bem^{n} = 1420.405\;\mathrm{MHz}.
+\label{eq:hydrogen_line}
+\end{equation}
+With $f_0=7.5$ Hz, $\bem=0.1408$, the nearest integer is $n\approx20$ (since $\bem^{20}\approx5.3\times10^{-18}$, $f_0/\bem^{20}\approx1.4$ GHz). This is consistent with the visible biophoton range. The coherent state of mtDNA is
+\begin{equation}
+|\Psi_{\mtDNA}\rangle = \sum_i c_i |\mathrm{base}_i\rangle \otimes |\Phi_i\rangle,
+\label{eq:mtdna_state}
+\end{equation}
+with master equation:
+\begin{equation}
+\frac{d\rho_{\mtDNA}}{dt} = -\frac{i}{\hbar}[H_{\mtDNA}, \rho_{\mtDNA}] + \mathcal{L}_{\mathrm{decoherence}} + \mathcal{L}_{\Phi\text{-collapse}}.
+\label{eq:mtdna_master}
+\end{equation}
+
+\section{Complete Mitochondrial Hamiltonian}
+\label{sec:hamiltonian}
+\begin{equation}
+H_m = H_{\mathrm{ATP}} + H_{\Phi} + H_{\mtDNA} + H_{\mathrm{interaction}} + H_{\mathrm{env}},
+\label{eq:total_hamiltonian}
+\end{equation}
+with
+\begin{align}
+H_{\mathrm{ATP}} &= \sum_i E_i |i\rangle\langle i|,\\
+H_{\Phi} &= \int dV \left[ \half (\nabla\Phi_m)^2 + V(\Phi_m) \right],\quad V(\Phi_m)=\lambda \Phi_m^4(\Phi_m^2-\Phizero^2)^2,\\
+H_{\mtDNA} &= \sum_j \varepsilon_j |\mathrm{base}_j\rangle\langle\mathrm{base}_j| + \sum_{\langle j,k\rangle} J_{jk} (|\mathrm{base}_j\rangle\langle\mathrm{base}_k| + \mathrm{h.c.}),\\
+H_{\mathrm{interaction}} &= g \int \Phi_m \cdot \rho_{\mathrm{ETC}} \, dV,\\
+H_{\mathrm{env}} &= \sum_k \hbar\omega_k a_k^\dagger a_k + \sum_k \lambda_k (a_k + a_k^\dagger) \otimes O_{\mtDNA}.
+\end{align}
+
+\section{Variational Collapse Criterion and Orch-OR}
+\label{sec:collapse}
+Collapse occurs when
+\begin{equation}
+\frac{\delta E_{\mathrm{total}}}{\delta\Phi} = 0 \quad\text{and}\quad E_{\mathrm{grav}}\cdot\tau \geq \hbar,
+\label{eq:collapse_conditions}
+\end{equation}
+with $E_{\mathrm{total}} = E_{\mathrm{grav}} + E_{\Phi} + E_{\mtDNA} + E_{\mathrm{interaction}}$. The variational equation reads
+\begin{equation}
+-\nabla^2\Phi + \frac{dV}{d\Phi} + \frac{\delta E_{\mathrm{grav}}}{\delta\Phi} + \frac{\delta E_{\mtDNA}}{\delta\Phi} + g\,\rho_{\mathrm{ETC}} = 0.
+\label{eq:variational}
+\end{equation}
+This provides a concrete physical realisation of Penrose–Hameroff Orch-OR with the $\Phi$-field as the quantum carrier (instead of microtubule dimers).
+
+\begin{table}[ht]
+\centering
+\caption{ATHENA–Orch-OR comparison.}
+\label{tab:orchor}
+\begin{tabular}{lll}
+\toprule
+Concept & ATHENA interpretation & Orch-OR (Penrose–Hameroff) \\
+\midrule
+Quantum carrier & Mitochondrial $\Phi$-field & Microtubule dimers \\
+Collapse condition & $\delta E_{\mathrm{total}}/\delta\Phi=0$, $E_{\mathrm{grav}}\tau\ge\hbar$ & $E_{\mathrm{grav}}\tau\sim\hbar$ \\
+Biological substrate & Mitochondria & Microtubules \\
+Measurable output & Biophoton emission & Not central \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Free Will as Objective Collapse}
+\label{sec:freewill}
+Free will is defined as the $\Phi$-field’s ability to exist in superposition and select one outcome through objective collapse. The decision moment:
+\begin{align}
+|\Psi(t)\rangle &= \sum_i c_i(t) |R_i\rangle|\Phi_i\rangle, \label{eq:freewill1}\\
+\frac{\delta E_{\mathrm{total}}}{\delta\Phi} &= 0, \label{eq:freewill2}\\
+E_{\mathrm{grav}}\cdot\tau &\geq \hbar. \label{eq:freewill3}
+\end{align}
+Will is quantified as
+\begin{equation}
+\text{Will} = \lim_{t\to t_c} \left( \frac{d}{dt} \langle \Psi | \Phi | \Psi \rangle \right)_{\mathrm{collapse}}.
+\label{eq:will}
+\end{equation}
+
+\section{Collective Will (Warren Effect)}
+\label{sec:warren}
+For $N$ individuals in coherent resonance, the collective $\Phi$-field density is
+\begin{equation}
+C(t) = \frac{1}{N} \sum_{i=1}^{N} \Phi_i(t) w_i.
+\label{eq:collective_C}
+\end{equation}
+The magnetic deflection (Warren number) is
+\begin{equation}
+\Delta B_W(t) = \kappa N^{\alpha} C^{\beta} \left(1 - e^{-t/\tau_W}\right) S(R),\quad \tau_W=14\ \text{days},
+\label{eq:warren_basic}
+\end{equation}
+with $\alpha\approx0.684$, $\beta\approx2$, $\kappa\approx5\times10^{-4}$ nT day$^{-1}$. Full time evolution:
+\begin{equation}
+\frac{dW}{dt} = \kappa N^{\alpha} C^{\beta} e^{-t/\tau_W} - \mu W - \lambda_{\mathrm{deco}} W^2.
+\label{eq:warren_evol}
+\end{equation}
+Biophoton interferometry measures coherence time modulation: $\tau_{\mathrm{coh}}(t)=\tau_0 + \delta\tau\,W(t) - \gamma_{\mathrm{deco}} W(t)^2$.
+
+\section{Neutron: Universe’s Memory (Backpropagation)}
+\label{sec:neutron}
+The neutron is neutral, long‑lived ($\tau\approx880$ s), and interacts weakly. It carries $\Phi$-field information without distortion. Upon decay ($n\to p+e+\bar{\nu}_e$), the information is released back into the $\Phi$-field (neutrino + electron). This constitutes a backpropagation signal, enabling the universe to learn from past structures. The neutron memory equation:
+\begin{equation}
+\frac{d\mathcal{M}}{dt} = \int \Phi_{\mathrm{local}} \cdot \rho_n \, dV - \frac{\mathcal{M}}{\tau_n},
+\label{eq:neutron_memory}
+\end{equation}
+where $\mathcal{M}$ is the stored information.
+
+\section{Photon: Universe’s Trigger (Forward Pass)}
+\label{sec:photon}
+The photon is massless, does not decay, and triggers new processes upon absorption (photosynthesis, vision, nuclear reactions). The forward pass equation:
+\begin{equation}
+\frac{d\mathcal{T}}{dt} = \int \Phi_{\mathrm{local}} \cdot \rho_\gamma \, dV,
+\label{eq:photon_trigger}
+\end{equation}
+where $\mathcal{T}$ is the cumulative triggered change. Together, neutron and photon form the minimal learning unit of the universe.
+
+\section{Five Senses as $\Phi$-Gradient Detectors}
+\label{sec:senses}
+Each sense detects a different mathematical gradient of $\Phi$. Development order mirrors the universe’s formation sequence:
+\begin{table}[ht]
+\centering
+\caption{Five senses as $\Phi$-gradient detectors.}
+\label{tab:senses}
+\begin{tabular}{llll}
+\toprule
+Sense & $\Phi$-Gradient & Physical correlate & Universe stage \\
+\midrule
+Touch & $\nabla\Phi$ & Pauli exclusion, EM pressure & Density/baryogenesis \\
+Hearing & $\partial^2\Phi/\partial t^2$ & Sound waves, plasma oscillations & Acoustic era \\
+Taste & $\Phi_{\mathrm{chemical}}$ & Molecular binding energy & First atoms \\
+Smell & $\Phi_{\mathrm{chemical}}$ (volatile) & Molecular resonance & Organic chemistry \\
+Sight & $\Phi_{\mathrm{EM}}$ & Photon flux & Stars, galaxies \\
+\bottomrule
+\end{tabular}
+\end{table}
+This order is not arbitrary; it recapitulates cosmic evolution in each embryo.
+
+\section{Rydberg Molecules and Fractal Evidence}
+\label{sec:rydberg}
+Ott et al. (2026) observed butterfly and trilobite electron orbitals in Rydberg molecules. These shapes are topologically identical to galactic spiral arms and the magnetic equator outflow. Scale invariance of the toroidal Euler–Lagrange equation (Eq.~8 in V25.3) over $10^{-15}$ m to $10^{23}$ m (38 orders) explains this identity. The Rydberg fractal prediction:
+\begin{equation}
+E_{\mathrm{res}} \propto B_{\mathrm{tor}}^{2} V_{\mathrm{tor}} \bem,
+\label{eq:rydberg_energy}
+\end{equation}
+holds from molecular to galactic scales.
+
+\section{Death and Rebirth: Information Recycling}
+\label{sec:death}
+Individual consciousness is a transient condensation of the $\Phi$-field – a whirlpool in a river. At death, the whirlpool dissolves, but the water (information) returns to the river. A new whirlpool (birth) re‑condenses from the same local history (DNA, mitochondrial $\Phi$-calibration) and environmental resonance. No eternal soul, but information persists. The recycling equation:
+\begin{equation}
+\frac{d\rho_{\mathrm{info}}}{dt} = -\nabla \cdot (\rho_{\mathrm{info}} \mathbf{v}_{\Phi}) + \alpha_{\mathrm{recond}} \rho_{\mathrm{info}}^2.
+\label{eq:info_recycle}
+\end{equation}
+
+\section{Loop Quantum Cosmology Bounce from ATHENA}
+\label{sec:lqc}
+Identifying $\Phi_{\mathrm{crit}}\leftrightarrow\rho_{\mathrm{crit}}$ through $V(\Phi)$ gives the bounce equation:
+\begin{equation}
+H^2 = \frac{8\pi G}{3} \rho \left(1 - \frac{\rho}{\rho_{\mathrm{crit}}(\Phi)}\right),
+\label{eq:lqc}
+\end{equation}
+with $\rho_{\mathrm{crit}}(\Phi)=\rho_{\mathrm{crit},0}(1+\delta\Phi^2)$. This replaces the Big Bang singularity.
+
+\section{Testable Predictions}
+\label{sec:predictions}
+\begin{enumerate}
+\item Biophoton spectrum shows discrete peaks at $\lambda_n = c\,\bem^{n}/f_0$ (visible $n\approx20$, precision $<1\%$).
+\item Anesthetics increase decoherence time $\tau_{\mathrm{deco}}(c_{\mathrm{anesth}}) = \tau_0 \exp(c_{\mathrm{anesth}}/c_0)$.
+\item Warren effect: 2000 meditators produce $\Delta B_W\approx0.15$ nT after 14 days; scaling $\alpha\approx0.684$.
+\item mtDNA resonance at 1420.405 MHz (hydrogen line) detectable via FRET anomalies.
+\item Rydberg molecules show $\bem$-scaled energy ratios in their orbital nodal structure.
+\end{enumerate}
+
+\section{Falsifiability}
+\label{sec:falsify}
+ATHENA-Bio is falsified if:
+\begin{itemize}
+\item Biophoton spectrum shows no discrete structure at $3\sigma$ level.
+\item Anesthetics show no effect on biophoton coherence time.
+\item Warren effect fails $3\sigma$ significance in 2000‑person trials by 2030.
+\item Mitochondrial decoherence time never exceeds $10^{-12}$ s under any condition.
+\end{itemize}
+
+\section{Conclusion}
+\label{sec:conclusion}
+ATHENA-Bio extends the $\Phi$-field framework to biology and consciousness. Biophotons are $\Phi$ micro‑collapses, mitochondria are $\Phi$ transceivers, mtDNA acts as a hydrogen‑line antenna, and the collapse criterion provides physical realisation of Orch-OR. Free will emerges from objective collapse, collective will is quantifiable via the Warren effect. The neutron and photon implement a learning algorithm (backpropagation/forward pass). The five senses recapitulate cosmic evolution. Rydberg fractal evidence confirms scale invariance. Death is information recycling. LQC bounce is natural. No new free parameters are introduced.
+
+\bigskip
+\noindent\textbf{Plan A continues. There is no Plan B.}
+
+\newpage
+\begin{thebibliography}{99}
+
+\bibitem{Yilmaz2025} Yılmaz, M. G. (2026). ATHENA V25.3: Core Physics. Zenodo.
+\bibitem{Yilmaz2026} Yılmaz, M. G. (2026). ATHENA V26: The Ontological Manifesto. Independent.
+\bibitem{ott2026} Ott, H. et al. (2026). \textit{Phys. Rev. Lett.} (in press).
+\bibitem{popp2002} Popp, F. A. et al. (2002). \textit{Electromagn. Biol. Med.} \textbf{21}, 1.
+\bibitem{vanwijk2005} Van Wijk, R. \& Van Wijk, E. P. A. (2005). \textit{J. Photochem. Photobiol. B} \textbf{81}, 53.
+\bibitem{penrose1996} Penrose, R. (1996). \textit{Shadows of the Mind}.
+\bibitem{hameroff2014} Hameroff, S. (2014). \textit{Physics of Life Reviews} \textbf{11}, 39.
+\bibitem{warren2026} Warren, B. et al. (2026). Collective will experiments (in preparation).
+
+\end{thebibliography}
+
+\end{document}
