@@ -1,10 +1,10 @@
-# ATHENA V7.2 FINAL
+# ATHENA — Grand Unified Topological Theory
 
-![Version](https://img.shields.io/badge/version-V7.2%20FINAL-blue)
-![Status](https://img.shields.io/badge/status-Grand%20Unified%20Theory-green)
-![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+![Version](https://img.shields.io/badge/version-V7.4%20%2B%20V7.2-blue)
+![Status](https://img.shields.io/badge/status-Active%20Development-green)
+![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
 
-**A Grand Unified Topological Theory of Disformal Toroidal Vacuum**
+**A Grand Unified Topological Theory of the Disformal Toroidal Vacuum**
 
 **Author:** Mustafa Gökhan Yılmaz  
 **ORCID:** 0009-0002-6591-0163  
@@ -12,73 +12,56 @@
 
 ---
 
-## Core Claim
+## Latest Release: ATHENA V7.4 FINAL
 
-ATHENA V7.2 FINAL is the first complete **Grand Unified Topological Theory** based on a single scalar disformal field Φ(x) representing the coarse-grained electromagnetic vacuum. It derives all fundamental constants from first principles and unifies:
+**V7.4** is the most complete version to date.
 
-- Gravity (emergent + LQG holonomies)
-- The Standard Model (via Galois symmetry)
-- Cosmology (dark energy, inflation, Hubble tension)
+### Key Advances in V7.4
+- Galois symmetry derivation of the **PMNS matrix** (δ_CP ≈ 145°)
+- Hybrid **LQG + Einstein-Cartan** embedding with torsional bounce
+- Full mathematical foundations (Killing vectors, Noether currents, Shannon topological entropy)
+- 8 sharp falsification tests
 
-No particle dark matter or cosmological constant is required.
+**Files:**
+- [V7.4 / Athena_V7.4 Final.pdf](https://github.com/mgy421977-bit/ATHENA/tree/main/V7.4)
+- [V7.4 README](https://github.com/mgy421977-bit/ATHENA/tree/main/V7.4)
 
----
-
-## Major Advances in V7.2 FINAL
-
-### 1. Loop Quantum Gravity Integration
-- Toroidal holonomies naturally emerge from Φ-field topology
-- Quantized area spectrum from winding number stability rule (powers of two)
-- **Toroidal Bounce** instead of Big Bang singularity
-
-### 2. Neutrino Physics from Galois Symmetry
-- Normal mass hierarchy predicted (inverted hierarchy topologically forbidden)
-- PMNS matrix angles derived from toroidal aspect ratio
-- **δ_CP ≈ 145°** predicted — sharp, falsifiable test for DUNE & Hyper-K
-
-### 3. Geometric Foundations
-- Circle Theorems explain the 5.40° cosmic dipole misalignment (p = 0.0022, 3σ)
-- Magnetic Equator Theorem generalized to cosmological scales
+**Zenodo DOI (V7.2 FINAL):** https://doi.org/10.5281/zenodo.20787345
 
 ---
 
-## Key Observational Successes
+## Core Idea
 
-- **SPARC Rotation Curves**: χ² = 731.1 (vs ΛCDM+NFW: 4059.7)
-- **Hubble Tension**: Resolved via n(z) transition
-- **Bullet Cluster**: Explained through electromagnetic inertia
-- **Cosmic Dipole**: 134° resonance + 5.40° residual (Circle Theorems)
+ATHENA proposes that a single **disformal scalar field Φ** living on a **toroidal vacuum manifold** (T²) derives all fundamental constants, unifies gravity with the Standard Model, resolves the Hubble tension, and provides a natural geometric realization of Loop Quantum Gravity — **without dark matter or cosmological constant**.
 
 ---
 
-## Repository Contents
+## Repository Structure
 
-### v7.2_final/ (Current Release)
-- `Final.pdf` — Compiled paper **(16 pages)** — Grand Unified Topological Theory
-- `Final.tex` — Full LaTeX source
-
-### Simulations (Python)
-- `athena_filament_simulation.py` — Oxford rotating cosmic filament analysis
-- `central_concentration_analysis.py` — CMB + Quasar dipole (3σ confirmation)
-- `frb_advanced_detector.py` — FRB periodicity & XENONnT correlation
-
-### Other Contents
-- Previous versions in `/archive`
+- `V7.4/` — Latest version (PDF + LaTeX + README)
+- `v7.2_final/` — Previous major release
+- `simulations/` — Python codes for SPARC fits, n(z), toroidal fields, etc.
+- `athena/` — Core simulation modules
+- `scripts/` — Analysis and plotting tools
+- `manifesto/` — Philosophical and bio documents
 
 ---
 
-## Zenodo DOI (V7.2 FINAL)
+## External Links
 
-**New DOI will be issued** for this major release.
-
----
-
-## Contact & Links
-
-- **YouTube:** [Science is Fiction](https://youtube.com/@bilimkurgudur)
-- **X/Twitter:** [@gkhanylmazb04r](https://x.com/gkhanylmazb04r)
+- **YouTube Channel:** [Science is Fiction](https://youtube.com/@bilimkurgudur)
+- **Blog:** [The Fiction Science](https://thefiction-science.blogspot.com/)
+- **Substack:** [bilimkurgudur](https://substack.com/@bilimkurgudur)
+- **X / Twitter:** [@gkhanylmazb04r](https://x.com/gkhanylmazb04r)
+- **LinkedIn:** [Mustafa Gökhan Yılmaz](https://www.linkedin.com/in/mustafa-g%C3%B6khan-yilmaz-184b4468)
 - **Email:** mgy421977@gmail.com
 
 ---
 
-*This work is dedicated to the pursuit of a geometrically beautiful and falsifiable theory of everything.*
+## How to Cite
+
+Yılmaz, M. G. (2026). ATHENA V7.4: A Grand Unified Topological Theory of the Disformal Toroidal Vacuum. https://github.com/mgy421977-bit/ATHENA
+
+---
+
+*Independent research dedicated to geometrically beautiful and falsifiable fundamental physics.*
