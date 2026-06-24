@@ -1,11 +1,4 @@
-# ATHENA — Grand Unified Topological Theory
-
-![Version](https://img.shields.io/badge/version-V7.4%20%2B%20V7.2-blue)
-![Status](https://img.shields.io/badge/status-Active%20Development-green)
-![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20787346-blue)](https://doi.org/10.5281/zenodo.20787346)
+# ATHENA
 
 **A Grand Unified Topological Theory of the Disformal Toroidal Vacuum**
 
@@ -15,368 +8,141 @@
 
 ---
 
-## 🔗 Links
+## 🔗 Important Links
 
-- **Zenodo (V7.2 FINAL – DOI):** https://doi.org/10.5281/zenodo.20787346
-- **GitHub Repository:** https://github.com/mgy421977-bit/ATHENA
-- **YouTube Channel:** https://youtube.com/@bilimkurgudur
-- **Blog:** [The Fiction Science](https://thefiction-science.blogspot.com/)
-- **Substack:** [bilimkurgudur](https://substack.com/@bilimkurgudur)
-- **Twitter/X:** [@gkhanylmazb04r](https://x.com/gkhanylmazb04r)
-- **LinkedIn:** [Mustafa Gökhan Yılmaz](https://www.linkedin.com/in/mustafa-g%C3%B6khan-yilmaz-184b4468)
+- **Zenodo (V7.4 / Core Theory):** [https://doi.org/10.5281/zenodo.20787346](https://doi.org/10.5281/zenodo.20787346)
+- **Zenodo (ATHENA-Bio V1.0):** [https://doi.org/10.5281/zenodo.20735463](https://doi.org/10.5281/zenodo.20735463)
+- **GitHub:** [https://github.com/mgy421977-bit/ATHENA](https://github.com/mgy421977-bit/ATHENA)
+- **YouTube:** [@bilimkurgudur](https://youtube.com/@bilimkurgudur)
+- **X/Twitter:** [@gkhanylmazb04r](https://x.com/gkhanylmazb04r)
 - **Email:** mgy421977@gmail.com
 
 ---
 
-## 🔭 What is ATHENA?
+## What is ATHENA?
 
-ATHENA proposes that a **single scalar disformal field (Φ)** living on a **toroidal vacuum manifold (T²)** can:
+ATHENA is a **topological unification framework** proposing that a single scalar disformal field **Φ(x)**, organized on a **toroidal vacuum manifold (T²)**, can replace dark matter and dark energy while providing a geometric origin for gravity, particle physics, and consciousness.
 
-1. ✅ **Unify gravity with the Standard Model** — Emergent GR from field dynamics
-2. ✅ **Replace dark matter & dark energy** — Both emerge as effective descriptions
-3. ✅ **Derive neutrino mixing angles** — From Galois symmetry (matches observed PMNS matrix)
-4. ✅ **Fit galaxy rotation curves perfectly** — SPARC database: 147 galaxies, χ²/dof ≈ 0.7
-5. ✅ **Provide 8 falsifiable predictions** — Testable by near-future experiments
+**Core Idea:**  
+The same toroidal topology and disformal coupling that shapes galaxies also operates at the cellular and conscious level.
 
 ---
 
-## 📊 Latest Results: ATHENA V7.4 FINAL
+## ATHENA-Bio V1.0 (New Extension)
 
-**Released:** June 2026
+**ATHENA-Bio** extends the Φ-field framework into biology and consciousness:
 
-### Key Advances in V7.4
+- Biophotons = Φ-field micro-collapse events (discrete spectrum)
+- Mitochondria = Φ-field transceivers coupled to ATP production
+- mtDNA = Biological antenna tuned to the 1420.405 MHz hydrogen line
+- Free will = Objective collapse of the Φ-field (compatible with Orch-OR)
+- Collective will = Quantifiable "Warren effect"
+- Five senses = Φ-gradient detectors that recapitulate cosmic evolution
+- Death = Information recycling back into the Φ-field
+- Rydberg molecules = Fractal evidence of scale invariance (38 orders of magnitude)
 
-✅ **SPARC Rotation Curves**
-- Exact fits to 180+ low-mass galaxies
-- **Median Z_EM = 0.2330** (matches theory exactly: Z₀ = 0.2330)
-- χ² = 731.1 for 147 successful galaxies
-- No free parameters beyond universal coupling constants
+**No new free parameters** are introduced.
 
-✅ **Galois Symmetry Derivation**
-- PMNS neutrino mixing matrix from toroidal geometry
-- δ_CP ≈ 145° (awaiting precision measurements from DUNE)
-- Solar angle θ₁₂ = 33.8° ✓ (matches PDG)
-- Atmospheric angle θ₂₃ = 48.3° ✓ (matches PDG)
-
-✅ **Hybrid LQG + Einstein-Cartan Embedding**
-- Singularity resolution via torsional bounce
-- Natural incorporation of quantum gravity corrections
-- Holonomy-based black hole entropy counting
-
-✅ **Full Mathematical Foundations**
-- Killing vectors, Noether currents, topological entropy
-- Shannon information theory connection
-- Rigorous ODE analysis with regularity conditions
-
-✅ **8 Sharp Falsification Tests**
-1. ✅ SPARC rotation curves (verified)
-2. 🔬 Hubble tension resolution (ready for observation)
-3. 🔬 PMNS mixing angles (awaiting DUNE, Super-K)
-4. 🔬 Cosmic dipole (Planck re-analysis pending)
-5. 🔬 Satellite galaxy dynamics (GAIA astrometry)
-6. 🔬 Black hole microstate entropy
-7. ✅ Methuselah age paradox (implemented)
-8. 🔬 Lyman-α forest modifications (JWST data)
+**Full paper:** [ATHENA-Bio V1.0 (Zenodo)](https://doi.org/10.5281/zenodo.20735463)
 
 ---
 
-## 🚀 Quick Start (5 Minutes)
+## Key Achievements (V7.4)
 
-### Installation
+- **SPARC Galaxy Rotation Curves**: Exact fits to 147+ galaxies with a single global parameter (α ≈ 0.36). Median Z_EM matches theoretical prediction exactly.
+- **Neutrino Mixing (PMNS)**: Derived from Galois symmetry of the toroidal vacuum.
+- **Hubble Tension & Cosmic Dipole**: Geometric resolution proposed.
+- **Hybrid LQG Embedding**: Natural singularity resolution via torsional bounce.
+- **8 Falsifiable Predictions**: Ready for DESI, LISA, EHT, DUNE, JWST, and GAIA.
+
+---
+
+## Repository Structure
+
+```
+ATHENA/
+├── V7.4/                    # Latest core theory (PDF + LaTeX)
+├── core/                    # Python package (field solver, SPARC analysis, tests)
+├── simulations/             # Analysis scripts (SPARC, dipole, black holes, etc.)
+├── scripts/                 # Quick-start entry points
+├── docs/                    # Documentation
+├── manifesto/               # Philosophical & Bio writings
+│   ├── ATHENA-Bio_V1.0.pdf
+│   └── README.md
+├── assets/                  # Figures and visuals
+├── requirements.txt
+├── setup.py
+└── README.md
+```
+
+---
+
+## Quick Start
 
 ```bash
 git clone https://github.com/mgy421977-bit/ATHENA.git
 cd ATHENA
 pip install -r requirements.txt
-```
 
-### Run Your First Fit
-
-```bash
+# Run a single galaxy fit
 python scripts/run_sparc_fit.py
-```
 
-**Output:**
-```
-============================================================
-  ATHENA SPARC Demo – Single Galaxy Fit
-============================================================
-Loading galaxy: A121
-Downloading SPARC data (160MB)...
-Chi² = 45.32 for 28 data points
-✓ Demo completed!
-```
-
-### Verify Z_EM Across All SPARC Galaxies
-
-```bash
+# Verify Z_EM across all SPARC galaxies
 python simulations/sparc_Z0_verification.py
 ```
 
-**Output:**
-```
-================================================================================
-🌌 Z_EM İSTATİSTİKLERİ (BAĞIMSIZ DOĞRULAMA)
-================================================================================
-Toplam kusursuz galaksi sayısı : 147
-Ortalama Z_EM                  : 0.2338 ± 0.0156
-Median Z_EM                    : 0.2330
-Teorik Z₀ (V25.13)             : 0.2330
-Fark (medyan – teorik)         : 0.0000
-================================================================================
-✅ Z_EM medyanı teorik Z₀ ile mükemmel uyum içindedir.
-```
-
 ---
 
-## 📚 Documentation
+## Citation
 
-| Document | Purpose |
-|----------|------------|
-| [**Installation Guide**](docs/installation.md) | Step-by-step setup, dependencies |
-| [**Quick Start**](docs/quickstart.md) | 5-minute runnable examples |
-| [**Physics Background**](docs/physics.md) | Theoretical foundations & equations |
-| [**API Reference**](docs/api_reference.md) | Function documentation |
-| [**Falsification Tests**](docs/falsification_tests.md) | All 8 predictions & status |
-
----
-
-## 🏗️ Repository Structure
-
-```
-ATHENA/
-├── V7.4/                       Latest theory (PDF + LaTeX + results)
-│   ├── ATHENA_V7.4_Final.pdf   Full 25-page manuscript
-│   ├── README.md               Version-specific docs
-│   └── results/                Figures and simulation outputs
-│
-├── v7.2_final/                 Previous major release
-│
-├── athena/                     Core Python package (v25.13)
-│   ├── __init__.py             Package initialization
-│   ├── field_solver.py         ODE solver for disformal field Φ
-│   ├── rotation_curves.py      Galaxy rotation curve predictions
-│   ├── likelihood.py           Chi² and likelihood functions
-│   └── tests/                  Unit tests (pytest)
-│       ├── __init__.py
-│       └── test_core.py        Comprehensive test suite
-│
-├── simulations/                Standalone analysis scripts
-│   ├── sparc_Z0_verification.py    Independent Z_EM verification (147 galaxies)
-│   ├── a_phi_derivation*.py        Coupling parameter derivations
-│   ├── blackhole_magnetic_equator.py Black hole analysis
-│   ├── dipole_*.py                 Cosmic dipole predictions
-│   ├── methuselah_paradox_final.py Age-redshift consistency
-│   └── [other analysis scripts]
-│
-├── scripts/                    Entry points & utilities
-│   └── run_sparc_fit.py        Single-galaxy example workflow
-│
-├── docs/                       Documentation
-│   ├── installation.md         Setup guide
-│   ├── quickstart.md           5-minute tutorial
-│   ├── physics.md              Theory & equations
-│   ├── api_reference.md        Function docs
-│   └── falsification_tests.md  All 8 predictions
-│
-├── manifesto/                  Philosophical writings
-│
-├── .github/workflows/          CI/CD automation
-│   └── tests.yml               Automated test runs
-│
-├── requirements.txt            Python dependencies
-├── setup.py                    Installation script
-├── .gitignore                  Git ignore rules
-├── README.md                   This file
-└── LICENSE                     CC BY 4.0
-```
-
----
-
-## 🔬 Core Concepts
-
-### The Disformal Field Equation
-
-$$\boxed{\frac{d^2\Phi}{dr^2} + \frac{2}{r}\frac{d\Phi}{dr} = \xi \rho_b \Phi + \alpha \rho_b}$$
-
-- **Φ** = Scalar disformal field (fundamental)
-- **ρ_b** = Baryonic mass density (observable matter)
-- **α** ≈ 0.36 = Disformal coupling strength
-- **ξ** ≈ 0.1408 = Universal coupling constant
-
-### Galaxy Rotation Curves
-
-$$v_{\text{total}}^2 = v_{\text{bary}}^2 + v_{\text{field}}^2$$
-
-Where:
-- **v_bary** ∝ √(M_baryon/r) — Standard Newtonian
-- **v_field** ∝ α·Φ·∂Φ/∂r — Disformal contribution
-
-**Result:** Reproduces observed rotation curves without ad-hoc dark matter halos!
-
----
-
-## 📋 Key Parameters
-
-| Parameter | Value | Meaning |
-|-----------|-------|---------|
-| α (alpha) | 0.36 | Disformal coupling strength |
-| Φ₀ | 0.782 | Cosmic field value today |
-| ξ (xi) | 0.1408 | Matter-field coupling |
-| Z_EM | 0.233 | Empirical amplitude (SPARC) |
-| L₁ | 2π/M_Pl | Toroidal circumference (UV scale) |
-| L₂ | 2π/m_e | Toroidal circumference (IR scale) |
-
----
-
-## 🧪 Running Tests
-
-### Unit Tests
-
-```bash
-pip install pytest
-pytest athena/tests/ -v
-```
-
-**Output:**
-```
-athena/tests/test_core.py::TestFieldSolver::test_solve_phi_basic PASSED
-athena/tests/test_core.py::TestFieldSolver::test_solve_phi_boundary_conditions PASSED
-athena/tests/test_core.py::TestRotationCurves::test_rotation_curve_basic PASSED
-athena/tests/test_core.py::TestLikelihood::test_chi2_perfect_fit PASSED
-
-==================== 20 passed in 0.45s ====================
-```
-
-### Full SPARC Analysis
-
-```bash
-python simulations/sparc_Z0_verification.py
-```
-
-Runs all 180+ SPARC galaxies and extracts Z_EM statistics.
-
----
-
-## 🔗 External Links
-
-- **YouTube Channel:** [Science is Fiction](https://youtube.com/@bilimkurgudur)
-- **Blog:** [The Fiction Science](https://thefiction-science.blogspot.com/)
-- **Substack:** [bilimkurgudur](https://substack.com/@bilimkurgudur)
-- **Twitter/X:** [@gkhanylmazb04r](https://x.com/gkhanylmazb04r)
-- **LinkedIn:** [Mustafa Gökhan Yılmaz](https://www.linkedin.com/in/mustafa-g%C3%B6khan-yilmaz-184b4468)
-- **Zenodo DOI (V7.2):** https://doi.org/10.5281/zenodo.20787346
-- **Email:** mgy421977@gmail.com
-
----
-
-## 📖 How to Cite
-
-**BibTeX:**
+**Core Theory (V7.4):**
 ```bibtex
 @software{yilmaz2026athena,
-  author = {Yılmaz, Mustafa Gökhan},
-  title = {ATHENA V7.4: A Grand Unified Topological Theory of the Disformal Toroidal Vacuum},
-  year = {2026},
-  url = {https://github.com/mgy421977-bit/ATHENA},
-  doi = {10.5281/zenodo.20787346},
-  version = {V7.4}
+  author  = {Yılmaz, Mustafa Gökhan},
+  title   = {ATHENA V7.4: A Grand Unified Topological Theory of the Disformal Toroidal Vacuum},
+  year    = {2026},
+  url     = {https://github.com/mgy421977-bit/ATHENA},
+  doi     = {10.5281/zenodo.20787346}
 }
 ```
 
-**Plain Text:**
-```
-Yılmaz, M. G. (2026). ATHENA V7.4: A Grand Unified Topological Theory of the 
-Disformal Toroidal Vacuum. Retrieved from https://github.com/mgy421977-bit/ATHENA
-DOI: 10.5281/zenodo.20787346
-```
-
----
-
-## 📄 License
-
-This work is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
-
-**You are free to:**
-- ✅ Share, copy, redistribute
-- ✅ Adapt, remix, transform
-- ✅ Use for commercial & non-commercial purposes
-
-**You must:**
-- ✓ Give appropriate credit
-- ✓ Provide a link to the license
-- ✓ Indicate if changes were made
-
-See [LICENSE](LICENSE) for details.
-
----
-
-## 🤝 Contributing
-
-This is independent research. However, contributions are welcome:
-
-1. **Implement missing tests:** See [falsification_tests.md](docs/falsification_tests.md)
-2. **Improve documentation:** Add examples, clarify explanations
-3. **Optimize code:** Performance improvements for ODE solving
-4. **Data analysis:** Apply tests to new observational datasets
-
-**To contribute:**
-```bash
-git checkout -b feature/your-feature
-git commit -am "Descriptive message"
-git push origin feature/your-feature
+**ATHENA-Bio V1.0:**
+```bibtex
+@software{yilmaz2026athenabio,
+  author  = {Yılmaz, Mustafa Gökhan},
+  title   = {ATHENA-Bio V1.0: Biophoton Emission, Mitochondrial Φ-Field, Quantum Coherence, and Free Will from Scalar Field Collapse},
+  year    = {2026},
+  url     = {https://github.com/mgy421977-bit/ATHENA},
+  doi     = {10.5281/zenodo.20735463}
+}
 ```
 
-Then open a pull request with a clear description.
+---
+
+## License
+
+**Creative Commons Attribution 4.0 International (CC BY 4.0)**
+
+You are free to share, adapt, and use this work for any purpose, including commercial, as long as you give appropriate credit.
 
 ---
 
-## 📋 Version History
+## Roadmap (2026)
 
-| Version | Date | Status | Key Updates |
-|---------|------|--------|-------------|
-| **V7.4** | June 2026 | 🟢 Latest | Galois symmetry, PMNS derivation, 147 galaxy fits |
-| V7.2 | 2025 | 🔵 Stable | LQG embedding, torsional bounce |
-| V6.0 | 2024 | ⚪ Archive | SPARC fitting framework |
-
----
-
-## ❓ FAQ
-
-**Q: How is this different from ΛCDM?**  
-A: ATHENA replaces separate dark matter & dark energy with a unified scalar field. It also provides derivations (not just observations) for neutrino mixing angles and cosmic parameters.
-
-**Q: What's the status of the theory?**  
-A: Mathematically complete. V7.4 makes 8 falsifiable predictions; 1 verified (SPARC), 7 awaiting observations.
-
-**Q: Can I use this code?**  
-A: Yes! Licensed under CC BY 4.0. Install with `pip install -e .`
-
-**Q: How do I run the full SPARC analysis?**  
-A: `python simulations/sparc_Z0_verification.py` (one command, ~2 minutes)
-
-**Q: Where is the theoretical manuscript?**  
-A: See `/V7.4/ATHENA_V7.4_Final.pdf` (25 pages, full derivations)
-
-**Q: How do I cite this work?**  
-A: Use the BibTeX above or reference Zenodo DOI: 10.5281/zenodo.20787346
+- V7.5: Full mathematical closure + more observational tests
+- ATHENA-Bio V1.1: Refined Hamiltonian and experimental proposals
+- Notebooks & interactive demos
+- Community contributions welcome
 
 ---
 
-## ⭐ Support This Work
+**Plan A continues. There is no Plan B.**
 
-If you find ATHENA interesting:
-- ⭐ Star this repository
-- 🔗 Share with colleagues
-- 📧 Provide feedback: mgy421977@gmail.com
-- 📝 Cite the work (see section above)
-- 🎬 Subscribe to [Science is Fiction](https://youtube.com/@bilimkurgudur)
+*We are trying to understand the universe — intuitive vision + mathematical rigor.*
+
+**Last updated:** 24 June 2026  
+**Contact:** mgy421977@gmail.com | @gkhanylmazb04r
 
 ---
 
-**Last Updated:** 24 June 2026  
-**Maintained by:** Mustafa Gökhan Yılmaz
-
----
-
-*This work is developed independently with the goal of advancing falsifiable theoretical physics.*
+*This repository is maintained by an independent researcher. All contributions and constructive feedback are welcome.*
