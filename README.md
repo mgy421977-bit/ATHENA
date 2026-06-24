@@ -5,12 +5,26 @@
 ![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20787346-blue)](https://doi.org/10.5281/zenodo.20787346)
 
 **A Grand Unified Topological Theory of the Disformal Toroidal Vacuum**
 
 **Author:** Mustafa Gökhan Yılmaz  
 **ORCID:** 0009-0002-6591-0163  
 **Location:** İzmir, Türkiye
+
+---
+
+## 🔗 Links
+
+- **Zenodo (V7.2 FINAL – DOI):** https://doi.org/10.5281/zenodo.20787346
+- **GitHub Repository:** https://github.com/mgy421977-bit/ATHENA
+- **YouTube Channel:** https://youtube.com/@bilimkurgudur
+- **Blog:** [The Fiction Science](https://thefiction-science.blogspot.com/)
+- **Substack:** [bilimkurgudur](https://substack.com/@bilimkurgudur)
+- **Twitter/X:** [@gkhanylmazb04r](https://x.com/gkhanylmazb04r)
+- **LinkedIn:** [Mustafa Gökhan Yılmaz](https://www.linkedin.com/in/mustafa-g%C3%B6khan-yilmaz-184b4468)
+- **Email:** mgy421977@gmail.com
 
 ---
 
@@ -251,6 +265,7 @@ Runs all 180+ SPARC galaxies and extracts Z_EM statistics.
 - **Substack:** [bilimkurgudur](https://substack.com/@bilimkurgudur)
 - **Twitter/X:** [@gkhanylmazb04r](https://x.com/gkhanylmazb04r)
 - **LinkedIn:** [Mustafa Gökhan Yılmaz](https://www.linkedin.com/in/mustafa-g%C3%B6khan-yilmaz-184b4468)
+- **Zenodo DOI (V7.2):** https://doi.org/10.5281/zenodo.20787346
 - **Email:** mgy421977@gmail.com
 
 ---
@@ -264,6 +279,7 @@ Runs all 180+ SPARC galaxies and extracts Z_EM statistics.
   title = {ATHENA V7.4: A Grand Unified Topological Theory of the Disformal Toroidal Vacuum},
   year = {2026},
   url = {https://github.com/mgy421977-bit/ATHENA},
+  doi = {10.5281/zenodo.20787346},
   version = {V7.4}
 }
 ```
@@ -272,6 +288,7 @@ Runs all 180+ SPARC galaxies and extracts Z_EM statistics.
 ```
 Yılmaz, M. G. (2026). ATHENA V7.4: A Grand Unified Topological Theory of the 
 Disformal Toroidal Vacuum. Retrieved from https://github.com/mgy421977-bit/ATHENA
+DOI: 10.5281/zenodo.20787346
 ```
 
 ---
@@ -341,6 +358,9 @@ A: `python simulations/sparc_Z0_verification.py` (one command, ~2 minutes)
 **Q: Where is the theoretical manuscript?**  
 A: See `/V7.4/ATHENA_V7.4_Final.pdf` (25 pages, full derivations)
 
+**Q: How do I cite this work?**  
+A: Use the BibTeX above or reference Zenodo DOI: 10.5281/zenodo.20787346
+
 ---
 
 ## ⭐ Support This Work
@@ -350,6 +370,7 @@ If you find ATHENA interesting:
 - 🔗 Share with colleagues
 - 📧 Provide feedback: mgy421977@gmail.com
 - 📝 Cite the work (see section above)
+- 🎬 Subscribe to [Science is Fiction](https://youtube.com/@bilimkurgudur)
 
 ---
 
