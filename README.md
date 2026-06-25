@@ -10,7 +10,8 @@
 
 ## 🔗 Important Links
 
-- **Zenodo (V7.4 / Core Theory):** [https://doi.org/10.5281/zenodo.20787346](https://doi.org/10.5281/zenodo.20787346)
+- **Zenodo (V7.5 / Core Theory):** *(Will be added after Zenodo upload)*
+- **Physical Review D Submission:** Temporary ID: es2026jun25_791 (Submitted 25 June 2026)
 - **Zenodo (ATHENA-Bio V1.0):** [https://doi.org/10.5281/zenodo.20735463](https://doi.org/10.5281/zenodo.20735463)
 - **GitHub:** [https://github.com/mgy421977-bit/ATHENA](https://github.com/mgy421977-bit/ATHENA)
 - **YouTube:** [@bilimkurgudur](https://youtube.com/@bilimkurgudur)
@@ -47,13 +48,14 @@ The same toroidal topology and disformal coupling that shapes galaxies also oper
 
 ---
 
-## Key Achievements (V7.4)
+## Key Achievements (V7.5)
 
 - **SPARC Galaxy Rotation Curves**: Exact fits to 147+ galaxies with a single global parameter (α ≈ 0.36). Median Z_EM matches theoretical prediction exactly.
 - **Neutrino Mixing (PMNS)**: Derived from Galois symmetry of the toroidal vacuum.
 - **Hubble Tension & Cosmic Dipole**: Geometric resolution proposed.
 - **Hybrid LQG Embedding**: Natural singularity resolution via torsional bounce.
 - **8 Falsifiable Predictions**: Ready for DESI, LISA, EHT, DUNE, JWST, and GAIA.
+- **Submitted to Physical Review D** (Regular Article) – 25 June 2026
 
 ---
 
@@ -61,7 +63,8 @@ The same toroidal topology and disformal coupling that shapes galaxies also oper
 
 ```
 ATHENA/
-├── V7.4/                    # Latest core theory (PDF + LaTeX)
+├── V7.5/                    # Latest core theory (PDF + LaTeX) - Submitted to PRD
+├── V7.4/                    # Previous version (archived)
 ├── core/                    # Python package (field solver, SPARC analysis, tests)
 ├── simulations/             # Analysis scripts (SPARC, dipole, black holes, etc.)
 ├── scripts/                 # Quick-start entry points
@@ -95,14 +98,14 @@ python simulations/sparc_Z0_verification.py
 
 ## Citation
 
-**Core Theory (V7.4):**
+**Core Theory (V7.5):**
 ```bibtex
 @software{yilmaz2026athena,
   author  = {Yılmaz, Mustafa Gökhan},
-  title   = {ATHENA V7.4: A Grand Unified Topological Theory of the Disformal Toroidal Vacuum},
+  title   = {ATHENA V7.5: A Grand Unified Topological Theory of the Disformal Toroidal Vacuum},
   year    = {2026},
   url     = {https://github.com/mgy421977-bit/ATHENA},
-  doi     = {10.5281/zenodo.20787346}
+  note    = {Submitted to Physical Review D, Temporary ID: es2026jun25_791}
 }
 ```
 
@@ -129,7 +132,7 @@ You are free to share, adapt, and use this work for any purpose, including comme
 
 ## Roadmap (2026)
 
-- V7.5: Full mathematical closure + more observational tests
+- V7.5: **Submitted to Physical Review D** (25 June 2026)
 - ATHENA-Bio V1.1: Refined Hamiltonian and experimental proposals
 - Notebooks & interactive demos
 - Community contributions welcome
@@ -140,7 +143,7 @@ You are free to share, adapt, and use this work for any purpose, including comme
 
 *We are trying to understand the universe — intuitive vision + mathematical rigor.*
 
-**Last updated:** 24 June 2026  
+**Last updated:** 25 June 2026  
 **Contact:** mgy421977@gmail.com | @gkhanylmazb04r
 
 ---
