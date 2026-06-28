@@ -10,7 +10,7 @@
 
 ## 🔗 Important Links
 
-- **Zenodo (V7.5 / Core Theory):** *(Will be added after Zenodo upload)*
+- **Zenodo (V8.0 - Latest):** [https://doi.org/10.5281/zenodo.20998986](https://doi.org/10.5281/zenodo.20998986)
 - **Physical Review D Submission:** Temporary ID: es2026jun25_791 (Submitted 25 June 2026)
 - **Zenodo (ATHENA-Bio V1.0):** [https://doi.org/10.5281/zenodo.20735463](https://doi.org/10.5281/zenodo.20735463)
 - **GitHub:** [https://github.com/mgy421977-bit/ATHENA](https://github.com/mgy421977-bit/ATHENA)
@@ -29,49 +29,36 @@ The same toroidal topology and disformal coupling that shapes galaxies also oper
 
 ---
 
-## ATHENA-Bio V1.0 (New Extension)
+## ATHENA V8.0 (Latest - June 2026)
 
-**ATHENA-Bio** extends the Φ-field framework into biology and consciousness:
+**New in V8.0:**
+- Complete derivation of Standard Model gauge groups SU(3)_c × SU(2)_L × U(1)_Y from toroidal winding numbers (w=1,2,3)
+- Rigorous geometric proof of Topological Tensor Ascent (TTA) — spin-1/2 and fermionic statistics emerge from w=2 winding
+- Topological Entropy Minimization Principle (TEMP) and Topological Involution Theorem formalized
+- Renormalization Group flow from 2D Liouville theory to 4D disformal gravity with explicit beta functions
+- Torus harmonics (m,n modes) explaining particle species
+- Updated figures with clean TikZ schematics
 
-- Biophotons = Φ-field micro-collapse events (discrete spectrum)
-- Mitochondria = Φ-field transceivers coupled to ATP production
-- mtDNA = Biological antenna tuned to the 1420.405 MHz hydrogen line
-- Free will = Objective collapse of the Φ-field (compatible with Orch-OR)
-- Collective will = Quantifiable "Warren effect"
-- Five senses = Φ-gradient detectors that recapitulate cosmic evolution
-- Death = Information recycling back into the Φ-field
-- Rydberg molecules = Fractal evidence of scale invariance (38 orders of magnitude)
+**Fits & Predictions:**
+- SPARC Galaxy Rotation Curves: χ² = 731.1 with single global parameter α ≈ 0.36
+- Hubble tension resolved geometrically
+- GRB afterglow predictions, CMB non-Gaussianity, Aharonov-Bohm tests
 
-**No new free parameters** are introduced.
-
-**Full paper:** [ATHENA-Bio V1.0 (Zenodo)](https://doi.org/10.5281/zenodo.20735463)
-
----
-
-## Key Achievements (V7.5)
-
-- **SPARC Galaxy Rotation Curves**: Exact fits to 147+ galaxies with a single global parameter (α ≈ 0.36). Median Z_EM matches theoretical prediction exactly.
-- **Neutrino Mixing (PMNS)**: Derived from Galois symmetry of the toroidal vacuum.
-- **Hubble Tension & Cosmic Dipole**: Geometric resolution proposed.
-- **Hybrid LQG Embedding**: Natural singularity resolution via torsional bounce.
-- **8 Falsifiable Predictions**: Ready for DESI, LISA, EHT, DUNE, JWST, and GAIA.
-- **Submitted to Physical Review D** (Regular Article) – 25 June 2026
+**Full paper:** [ATHENA V8.0 on Zenodo](https://doi.org/10.5281/zenodo.20998986)
 
 ---
 
-## Repository Structure
+## Repository Structure (Updated)
 
 ```
 ATHENA/
-├── V7.5/                    # Latest core theory (PDF + LaTeX) - Submitted to PRD
-├── V7.4/                    # Previous version (archived)
-├── core/                    # Python package (field solver, SPARC analysis, tests)
-├── simulations/             # Analysis scripts (SPARC, dipole, black holes, etc.)
+├── Arşiv Versiyon/          # Old versions (V7.2, V7.4, V7.5)
+├── V8.0/                    # Latest version (PDF + figures)
+├── core/                    # Python package
+├── simulations/             # Analysis scripts
 ├── scripts/                 # Quick-start entry points
 ├── docs/                    # Documentation
 ├── manifesto/               # Philosophical & Bio writings
-│   ├── ATHENA-Bio_V1.0.pdf
-│   └── README.md
 ├── assets/                  # Figures and visuals
 ├── requirements.txt
 ├── setup.py
@@ -89,23 +76,20 @@ pip install -r requirements.txt
 
 # Run a single galaxy fit
 python scripts/run_sparc_fit.py
-
-# Verify Z_EM across all SPARC galaxies
-python simulations/sparc_Z0_verification.py
 ```
 
 ---
 
 ## Citation
 
-**Core Theory (V7.5):**
+**Core Theory (V8.0):**
 ```bibtex
 @software{yilmaz2026athena,
   author  = {Yılmaz, Mustafa Gökhan},
-  title   = {ATHENA V7.5: A Grand Unified Topological Theory of the Disformal Toroidal Vacuum},
+  title   = {ATHENA V8.0: Complete Topo-Geometric Unification of Gauge Symmetries, Fermions, and Quantum Gravity on a Toroidal Vacuum},
   year    = {2026},
   url     = {https://github.com/mgy421977-bit/ATHENA},
-  note    = {Submitted to Physical Review D, Temporary ID: es2026jun25_791}
+  doi     = {10.5281/zenodo.20998986}
 }
 ```
 
@@ -132,9 +116,8 @@ You are free to share, adapt, and use this work for any purpose, including comme
 
 ## Roadmap (2026)
 
-- V7.5: **Submitted to Physical Review D** (25 June 2026)
-- ATHENA-Bio V1.1: Refined Hamiltonian and experimental proposals
-- Notebooks & interactive demos
+- V8.0: **Published on Zenodo** (28 June 2026) — Full gauge group derivation + TTA proof
+- ATHENA-Bio V1.1: Refined experimental proposals
 - Community contributions welcome
 
 ---
@@ -143,7 +126,7 @@ You are free to share, adapt, and use this work for any purpose, including comme
 
 *We are trying to understand the universe — intuitive vision + mathematical rigor.*
 
-**Last updated:** 25 June 2026  
+**Last updated:** 28 June 2026  
 **Contact:** mgy421977@gmail.com | @gkhanylmazb04r
 
 ---
