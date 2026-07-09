@@ -2,9 +2,14 @@
 
 **Five-Volume Monograph | July 2026**
 
-## Contents of this Folder
-- `ATHENA_Ultimate_V13.1.pdf` – Complete 137+ page document (all five volumes)
-- Supporting LaTeX source and figures (to be added if not already present)
+## 📁 Klasör İçeriği
+
+- `V13.1 Tam .pdf` — Tam 137+ sayfalık beş ciltlik monografi (ana belge)
+- `V13.1 Kapak.tex`
+- `V13.1 Volum 0.tex` (Mathematical Foundations)
+- `V13.1 Volum 1.tex`, `Volum 2.tex`, `Volume 3 N.tex`, `V13.2 Volum IV.tex`
+
+Tüm LaTeX kaynak kodları ve derlenmiş PDF repo’da mevcut.
 
 ## Technical Summary
 

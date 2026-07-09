@@ -21,6 +21,15 @@
 
 ---
 
+## 📁 v13.1 Klasörü İçeriği
+
+- `V13.1 Tam .pdf` — Tam 137+ sayfalık beş ciltlik monografi
+- `V13.1 Kapak.tex` + Volume 0-4 LaTeX kaynak dosyaları
+
+Tüm kaynak kodlar ve PDF repo’da mevcut.
+
+---
+
 ## Core Principle
 
 All fundamental phenomena arise from the **topological organization of the electromagnetic vacuum on the toroidal manifold T²**.
@@ -70,8 +79,8 @@ Phase shift under 2π rotation for w=2: ψ(θ + 2π) = −ψ(θ) (defining prope
 - **Modified Hubble Equation** derived from topological pressure
 
 ### Observational Comparisons (Volume III)
-- **SPARC Rotation Curves:** χ^{2} = 731.1 (excellent fit with emergent gravity + TTA screening)
-- **Hubble Tension:** H_local^{0} ≈ 73.2 km/s/Mpc vs H_early^{0} ≈ 67.4 km/s/Mpc → resolved via topological effects
+- **SPARC Rotation Curves:** χ² = 731.1 (excellent fit with emergent gravity + TTA screening)
+- **Hubble Tension:** H_local⁰ ≈ 73.2 km/s/Mpc vs H_early⁰ ≈ 67.4 km/s/Mpc → resolved via topological effects
 - Additional tests: LISA phase shifts, Aharonov-Bohm corrections, GRB afterglows, alpha decay clustering, cosmic dipole misalignment
 
 **Eight independent falsification tests** are explicitly specified.
@@ -82,7 +91,7 @@ Phase shift under 2π rotation for w=2: ψ(θ + 2π) = −ψ(θ) (defining prope
 
 ```text
 ATHENA/
-├── v13.1/                    # Latest complete monograph (V13.1)
+├── v13.1/                    # Latest complete monograph (V13.1) + LaTeX source + PDF
 ├── athena/                   # Core Python simulation package
 ├── simulations/              # Numerical pipelines (SPARC, dipole inversion, GRB, etc.)
 ├── docs/                     # Technical documentation & falsification tests
