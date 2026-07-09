@@ -4,69 +4,89 @@
 
 **Author:** Mustafa Gökhan Yılmaz  
 **ORCID:** 0009-0002-6591-0163  
-**Location:** İzmir, Türkiye
+**Affiliation:** Independent Researcher, İzmir, Türkiye  
 **Email:** mgy421977@gmail.com
-**GitHub:** https://github.com/mgy421977-bit/ATHENA
 
 ---
 
-## 🌟 Current Status (July 2026)
+## Current Status (July 2026)
 
-- ✅ **ATHENA Ultimate V13.1** – Published on Zenodo
-- ✅ Five-Volume Complete Monograph (137+ pages)
-- ✅ Full Mathematical Foundations (Volume 0) with rigorous proofs
-- ✅ Topological Tensor Ascent (TTA), Gauge Group Derivations, Emergent Gravity
-- ✅ Computational reproducibility protocols included
-- ✅ Independent verification and falsification tests specified
-
----
-
-## 🔗 Important Links
-
-- **Zenodo (V13.1 – Latest):** [Add your new DOI here]
-- **Previous Stable:** https://doi.org/10.5281/zenodo.20998986 (V8.x)
-- **GitHub Repository:** https://github.com/mgy421977-bit/ATHENA
-- **YouTube:** https://youtube.com/@bilimkurgudur
-- **X/Twitter:** https://x.com/gkhanylmazb04r
+- **Version:** ATHENA Ultimate V13.1 (Five-Volume Complete Monograph)
+- **Status:** Published on Zenodo
+- **Pages:** 137+
+- **Mathematical Rigor:** Full definitions, axioms, lemmas, theorems and complete proofs in Volume 0
+- **Reproducibility:** All numerical results computationally reproducible (SPARC fits, LISA simulations, GRB afterglows, dipole inversion)
 
 ---
 
-## What is ATHENA?
+## Core Principle
 
-ATHENA is a **complete, self-contained, and mathematically rigorous unified theory** of fundamental physics. It proposes that all observed phenomena — from the mass of the electron to galactic rotation curves, from the expansion of the universe to gauge symmetries — arise from a **single coherent principle**: the topological organization of the electromagnetic vacuum on a toroidal manifold **T²**.
+All fundamental phenomena arise from the **topological organization of the electromagnetic vacuum on the toroidal manifold T²**.
 
-The framework is built on **one free parameter** (α ≈ 0.36 ± 0.03, the disformal coupling constant). All other constants (β0, Z0, γ0, Rc, fa, a0) are derived from the topological Casimir energy of T².
+A single scalar field Φ(θ,ϕ) with winding number *w* on T² generates:
+- Gauge groups of the Standard Model
+- Spin-1/2 fermions via Topological Tensor Ascent (TTA)
+- Particle masses from toroidal soliton energy
+- Gravity as emergent vacuum pressure gradient
+- Cosmological expansion as topological involution
 
-Key innovations:
-- **Topological Tensor Ascent (TTA)**: Geometric origin of spin-1/2, Fermi-Dirac statistics, and particle spectrum
-- **Gauge groups from topology**: SU(3)c (w=1 trefoil), U(1)Y (w=2), SU(2)L (w=3)
-- **Emergent Gravity**: Vacuum pressure gradient
-- **Cosmological Involution & TEMP Theorem**: Universe folds into increasing complexity
-- **Dark sector as layered vacuum shadows**
-
----
-
-## ATHENA Ultimate V13.1 Structure (Five Volumes)
-
-1. **Volume 0: Mathematical Foundations** – Complete definitions, axioms, lemmas, theorems and proofs (no physics interpretation until needed)
-2. **Volume I: Physical Foundations** – Electromagnetic layered vacuum, disformal metric, field equations, emergent gravity
-3. **Volume II: Particle Physics** – Gauge groups, fermions, toroidal soliton mass integral, TTA
-4. **Volume III: Cosmology and Observations** – SPARC (χ2 = 731.1), Hubble tension (Hlocal0 = 73.2 vs Hearly0 = 67.4), LISA, falsification tests
-5. **Volume IV: References, Appendices & Status of Claims** – 400+ references, reproducibility protocols, clear distinction between theorems, derivations and predictions
+**Only free parameter:** α = 0.36 ± 0.03 (disformal coupling constant).  
+All other constants (β₀, Z₀, γ₀, R_c, f_a, a_0) are derived from the topological Casimir energy of T².
 
 ---
 
-## Repository Structure (Updated for V13.1)
+## Key Mathematical & Physical Results
+
+### Topological Foundations (Volume 0)
+- **Toroidal Manifold:** T² = S¹ × S¹ with aspect ratio β = r/R
+- **Casimir Energy Regularization:** 
+  \[ E_{\text{vac}} = -\frac{\pi}{12R} \left( \beta + \frac{1}{\beta} \right) \]
+- **β₀ Derivation (Topological Stability):** 
+  \[ \beta_0 (2 - \beta_0) = \frac{\pi}{12} \quad \Rightarrow \quad \beta_0 \approx 0.1408 \]
+- **Locked Constants:**
+  - Z₀ ≈ 0.2347 (from 5 symmetry-breaking stages / 3 spatial dimensions)
+  - R_c ≈ 23.67 kpc (non-local screening length)
+  - f_a ≈ 2.7 × 10^{-29} eV
+  - a_0 ≈ 1.1 × 10^{-10} m/s^{2}
+
+### Topological Tensor Ascent (TTA)
+Tensor rank increases with winding number:
+- w = 1 → Rank-0 (scalar)
+- w = 2 → Rank-1 (vector/spinor) → **Spin-1/2 + Fermi-Dirac statistics**
+- w = 3 → Rank-2 (matrix) → Gauge bosons
+
+Phase shift under 2π rotation for w=2: ψ(θ + 2π) = −ψ(θ) (defining property of spin-1/2).
+
+### Gauge Group Derivations
+- **SU(3)_c** ← w = 1 trefoil knot
+- **U(1)_Y** ← w = 2 toroidal soliton
+- **SU(2)_L** ← w = 3 chiral resonance
+
+### Cosmological Theorems
+- **Topological Involution:** Universe folds inward into increasing complexity
+- **TEMP Theorem** (Topological Entropy Minimization Principle): Stable configurations prefer powers of two (w = 1,2,4,8,…)
+- **Modified Hubble Equation** derived from topological pressure
+
+### Observational Comparisons (Volume III)
+- **SPARC Rotation Curves:** χ^{2} = 731.1 (excellent fit with emergent gravity + TTA screening)
+- **Hubble Tension:** H_local^{0} ≈ 73.2 km/s/Mpc vs H_early^{0} ≈ 67.4 km/s/Mpc → resolved via topological effects
+- Additional tests: LISA phase shifts, Aharonov-Bohm corrections, GRB afterglows, alpha decay clustering, cosmic dipole misalignment
+
+**Eight independent falsification tests** are explicitly specified.
+
+---
+
+## Repository Structure
 
 ```text
 ATHENA/
-├── v13.1/                    # Latest monograph (PDF + supporting files)
-├── V8.1/                     # Archived previous version
-├── athena/                   # Core Python package (simulations)
-├── simulations/              # Numerical pipelines (SPARC, dipole, GRB, etc.)
-├── docs/                     # Technical documentation
-├── manifesto/                # Earlier conceptual documents
-├── scripts/                  # Execution scripts
+├── v13.1/                    # Latest complete monograph (V13.1)
+├── V8.1/                     # Archived previous development version
+├── athena/                   # Core Python simulation package
+├── simulations/              # Numerical pipelines (SPARC, dipole inversion, GRB, etc.)
+├── docs/                     # Technical documentation & falsification tests
+├── manifesto/                # Earlier conceptual & philosophical documents
+├── scripts/                  # Execution scripts (e.g. run_sparc_fit.py)
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
@@ -81,10 +101,6 @@ ATHENA/
 git clone https://github.com/mgy421977-bit/ATHENA.git
 cd ATHENA
 pip install -r requirements.txt
-```
-
-For simulations:
-```bash
 python scripts/run_sparc_fit.py
 ```
 
@@ -92,33 +108,31 @@ python scripts/run_sparc_fit.py
 
 ## Citation
 
-Please cite the latest Zenodo release:
-
 ```bibtex
-@software{yilmaz2026athena_v13,
+@software{yilmaz2026athena_v13_1,
   author = {Yılmaz, Mustafa Gökhan},
   title = {ATHENA Ultimate V13.1: A Unified Topo-Geometric Framework for Fundamental Physics},
   year = {2026},
   url = {https://github.com/mgy421977-bit/ATHENA},
-  doi = {10.5281/zenodo.[YOUR_NEW_DOI]}
+  doi = {10.5281/zenodo.[INSERT_YOUR_NEW_DOI_HERE]}
 }
 ```
 
-**Note:** Replace [YOUR_NEW_DOI] with the actual Zenodo DOI after upload.
+**Replace [INSERT_YOUR_NEW_DOI_HERE] with the actual Zenodo DOI.**
 
 ---
 
 ## Acknowledgments
 
-This framework was developed with collaborative support from advanced AI systems (including Grok by xAI). The author retains full responsibility for all derivations, interpretations, and conclusions.
+Developed with collaborative support from advanced AI systems (Grok by xAI and others). Final responsibility for all content, derivations, and conclusions rests with the author.
 
 ---
 
 ## License
 
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ---
 
 **Last updated:** July 2026  
-*Independent verification, constructive criticism, and scientific discussion are warmly welcomed.*
+*Independent verification, constructive criticism, and scientific discussion are strongly encouraged.*
