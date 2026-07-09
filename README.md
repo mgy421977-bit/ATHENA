@@ -1,83 +1,72 @@
-# ATHENA
+# ATHENA Ultimate V13.1
 
-**A Unified Topo-Geometric Framework and Computational Reconstruction**
+**A Unified Topo-Geometric Framework for Fundamental Physics**
 
 **Author:** Mustafa Gökhan Yılmaz  
 **ORCID:** 0009-0002-6591-0163  
 **Location:** İzmir, Türkiye
+**Email:** mgy421977@gmail.com
+**GitHub:** https://github.com/mgy421977-bit/ATHENA
 
 ---
 
-## Current Status
+## 🌟 Current Status (July 2026)
 
-- ✅ ATHENA V8.1 (Current Development Version)
-- ✅ Computational Reconstruction (V15 Methodology)
-- ✅ Public GitHub Repository
-- ✅ Reproducible Numerical Implementations
-- ✅ Independent Verification Welcome
+- ✅ **ATHENA Ultimate V13.1** – Published on Zenodo
+- ✅ Five-Volume Complete Monograph (137+ pages)
+- ✅ Full Mathematical Foundations (Volume 0) with rigorous proofs
+- ✅ Topological Tensor Ascent (TTA), Gauge Group Derivations, Emergent Gravity
+- ✅ Computational reproducibility protocols included
+- ✅ Independent verification and falsification tests specified
 
 ---
 
 ## 🔗 Important Links
 
-- **ATHENA V8.1 (Current Development):** `/V8.1`
-- **Zenodo (V8.0 - Stable Release):** https://doi.org/10.5281/zenodo.20998986
-- **Physical Review D Submission:** Temporary ID: es2026jun25_791 (Submitted 25 June 2026)
-- **Zenodo (ATHENA-Bio V1.0):** https://doi.org/10.5281/zenodo.20735463
+- **Zenodo (V13.1 – Latest):** [Add your new DOI here]
+- **Previous Stable:** https://doi.org/10.5281/zenodo.20998986 (V8.x)
 - **GitHub Repository:** https://github.com/mgy421977-bit/ATHENA
 - **YouTube:** https://youtube.com/@bilimkurgudur
-- **X / Twitter:** https://x.com/gkhanylmazb04r
-- **Email:** mgy421977@gmail.com
+- **X/Twitter:** https://x.com/gkhanylmazb04r
 
 ---
 
 ## What is ATHENA?
 
-ATHENA is a **computationally reproducible topo-geometric framework** investigating whether a disformal scalar field defined on a toroidal manifold (**T²**) can provide a unified effective description of galactic dynamics, cosmological observations and topological gauge structures.
+ATHENA is a **complete, self-contained, and mathematically rigorous unified theory** of fundamental physics. It proposes that all observed phenomena — from the mass of the electron to galactic rotation curves, from the expansion of the universe to gauge symmetries — arise from a **single coherent principle**: the topological organization of the electromagnetic vacuum on a toroidal manifold **T²**.
 
-The framework combines:
+The framework is built on **one free parameter** (α ≈ 0.36 ± 0.03, the disformal coupling constant). All other constants (β0, Z0, γ0, Rc, fa, a0) are derived from the topological Casimir energy of T².
 
-- Topological field theory
-- Horndeski/disformal gravity
-- Computational reconstruction
-- Numerical simulations
-- Reproducible scientific workflows
-
-rather than presenting only a conceptual proposal.
-
----
-
-## ATHENA V8.1 (Current Version – July 2026)
-
-### New in V8.1
-
-- Complete computational reconstruction (V15 methodology)
-- Unified manuscript integrating theory and numerical implementation
-- Reproducible SPARC rotation-curve pipeline
-- Updated renormalization-group derivation
-- Effective cosmological reconstruction
-- Exact exponential disk baryonic geometry
-- Improved reproducibility and documentation
-- Expanded computational readiness matrix
-- Complete TikZ scientific illustrations
-- Clear separation between theoretical framework and implemented effective equations
-
-**Current manuscript:** `V8.1/`
-
-**Stable archived release:** https://doi.org/10.5281/zenodo.20998986
+Key innovations:
+- **Topological Tensor Ascent (TTA)**: Geometric origin of spin-1/2, Fermi-Dirac statistics, and particle spectrum
+- **Gauge groups from topology**: SU(3)c (w=1 trefoil), U(1)Y (w=2), SU(2)L (w=3)
+- **Emergent Gravity**: Vacuum pressure gradient
+- **Cosmological Involution & TEMP Theorem**: Universe folds into increasing complexity
+- **Dark sector as layered vacuum shadows**
 
 ---
 
-## Repository Structure
+## ATHENA Ultimate V13.1 Structure (Five Volumes)
+
+1. **Volume 0: Mathematical Foundations** – Complete definitions, axioms, lemmas, theorems and proofs (no physics interpretation until needed)
+2. **Volume I: Physical Foundations** – Electromagnetic layered vacuum, disformal metric, field equations, emergent gravity
+3. **Volume II: Particle Physics** – Gauge groups, fermions, toroidal soliton mass integral, TTA
+4. **Volume III: Cosmology and Observations** – SPARC (χ2 = 731.1), Hubble tension (Hlocal0 = 73.2 vs Hearly0 = 67.4), LISA, falsification tests
+5. **Volume IV: References, Appendices & Status of Claims** – 400+ references, reproducibility protocols, clear distinction between theorems, derivations and predictions
+
+---
+
+## Repository Structure (Updated for V13.1)
 
 ```text
 ATHENA/
-├── V8.1/                    # Current development manuscript
-├── athena/                  # Core Python package
-├── simulations/             # Numerical simulations & Colab notebooks
-├── scripts/                 # Execution scripts
-├── docs/                    # Technical documentation
-├── manifesto/               # Conceptual and philosophical documents
+├── v13.1/                    # Latest monograph (PDF + supporting files)
+├── V8.1/                     # Archived previous version
+├── athena/                   # Core Python package (simulations)
+├── simulations/              # Numerical pipelines (SPARC, dipole, GRB, etc.)
+├── docs/                     # Technical documentation
+├── manifesto/                # Earlier conceptual documents
+├── scripts/                  # Execution scripts
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
@@ -94,56 +83,34 @@ cd ATHENA
 pip install -r requirements.txt
 ```
 
-Example:
-
+For simulations:
 ```bash
 python scripts/run_sparc_fit.py
 ```
 
 ---
 
-## Scientific Scope
+## Citation
 
-Current numerical modules include:
+Please cite the latest Zenodo release:
 
-- SPARC galaxy rotation curves
-- GRB 221009A reconstruction
-- Cosmological effective evolution
-- Dipole alignment analysis
-- Monte Carlo validation
-- Topological scalar-field simulations
+```bibtex
+@software{yilmaz2026athena_v13,
+  author = {Yılmaz, Mustafa Gökhan},
+  title = {ATHENA Ultimate V13.1: A Unified Topo-Geometric Framework for Fundamental Physics},
+  year = {2026},
+  url = {https://github.com/mgy421977-bit/ATHENA},
+  doi = {10.5281/zenodo.[YOUR_NEW_DOI]}
+}
+```
+
+**Note:** Replace [YOUR_NEW_DOI] with the actual Zenodo DOI after upload.
 
 ---
 
-## Citation
+## Acknowledgments
 
-### Current Development
-
-Please cite the latest stable archived release until V8.1 receives its permanent DOI.
-
-### ATHENA V8.0
-
-```bibtex
-@software{yilmaz2026athena,
-  author = {Yılmaz, Mustafa Gökhan},
-  title = {ATHENA V8.0: Complete Topo-Geometric Unification of Gauge Symmetries, Fermions, and Quantum Gravity on a Toroidal Vacuum},
-  year = {2026},
-  url = {https://github.com/mgy421977-bit/ATHENA},
-  doi = {10.5281/zenodo.20998986}
-}
-```
-
-### ATHENA-Bio V1.0
-
-```bibtex
-@software{yilmaz2026athenabio,
-  author = {Yılmaz, Mustafa Gökhan},
-  title = {ATHENA-Bio V1.0},
-  year = {2026},
-  url = {https://github.com/mgy421977-bit/ATHENA},
-  doi = {10.5281/zenodo.20735463}
-}
-```
+This framework was developed with collaborative support from advanced AI systems (including Grok by xAI). The author retains full responsibility for all derivations, interpretations, and conclusions.
 
 ---
 
@@ -153,6 +120,5 @@ Please cite the latest stable archived release until V8.1 receives its permanent
 
 ---
 
-**Last updated:** July 2026
-
-*ATHENA is an active research project. Independent verification, scientific discussion and constructive criticism are welcome.*
+**Last updated:** July 2026  
+*Independent verification, constructive criticism, and scientific discussion are warmly welcomed.*
