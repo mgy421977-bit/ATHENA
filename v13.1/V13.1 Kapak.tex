@@ -1,0 +1,305 @@
+\documentclass[12pt,oneside]{book}
+
+% ===== GEOMETRY =====
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+
+% ===== ENCODING AND FONTS =====
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% ===== CORE PACKAGES =====
+\usepackage{amsmath, amssymb, amsfonts, amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{url}
+
+% ===== TIKZ =====
+\usepackage{tikz}
+\usetikzlibrary{positioning,shapes,arrows,calc,decorations.pathmorphing,decorations.markings,shapes.geometric,fit,backgrounds}
+
+% ===== HYPERREF SETUP =====
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+% ===== THEOREM STYLES (Master için eklendi) =====
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{postulate}{Postulate}[chapter]
+\newtheorem{derivation}{Derivation}[chapter]
+\newtheorem{prediction}{Prediction}[chapter]
+\newtheorem{remark}{Remark}[chapter]
+\newtheorem{example}{Example}[chapter]
+\newtheorem{notation}{Notation}[chapter]
+
+\begin{document}
+
+% ============================================================
+% FRONT MATTER
+% ============================================================
+
+\frontmatter
+
+% ============================================================
+% TITLE PAGE
+% ============================================================
+
+\begin{titlepage}
+\centering
+
+% ---- Background decorative torus ----
+\begin{tikzpicture}[remember picture, overlay]
+    \node[opacity=0.08, scale=4] at (current page.center) {
+        \begin{tikzpicture}
+            \draw[thick, blue] (0,0) ellipse (2 and 1);
+            \draw[thick, blue, dashed] (0,0) ellipse (1.2 and 0.6);
+            \draw[thick, blue] (0,0) ellipse (2 and 1);
+            \draw[thick, red] (0,0) circle (0.4);
+            \draw[->, thick, red] (0.4,0) arc (0:180:0.4);
+            \draw[->, thick, red] (0.4,0) arc (0:-180:0.4);
+            \node[blue] at (0,-1.8) {$T^2$};
+        \end{tikzpicture}
+    };
+\end{tikzpicture}
+
+\vspace*{1cm}
+
+{\Huge\bfseries ATHENA ULTIMATE V13.1}
+
+\vspace{0.3cm}
+
+{\Large A Unified Topo-Geometric Framework for Fundamental Physics}
+
+\vspace{1.5cm}
+
+% ---- Torus + winding number illustration ----
+\begin{tikzpicture}[scale=0.8]
+    % Torus
+    \draw[thick, blue!70!black] (0,0) ellipse (2 and 1);
+    \draw[thick, blue!70!black, dashed] (0,0) ellipse (1.2 and 0.6);
+    % Poloidal winding
+    \draw[thick, red, domain=0:360, samples=80, smooth, variable=\t]
+        plot ({ (1.6 + 0.4*cos(2*\t))*cos(\t) },
+             { (1.6 + 0.4*cos(2*\t))*sin(\t) },
+             { 0.4*sin(2*\t) });
+    \node[red, below right] at (1.8,0.6) {$w=2$};
+    % Trefoil knot (small)
+    \begin{scope}[shift={(2.8,1.2)}, scale=0.3]
+        \draw[thick, green!60!black, domain=0:360, samples=100, smooth, variable=\t]
+            plot ({ (2+cos(3*\t))*cos(2*\t) },
+                 { (2+cos(3*\t))*sin(2*\t) },
+                 { sin(3*\t) });
+        \node[green!60!black] at (0,-2.5) {$w=1$};
+    \end{scope}
+    % Chiral helix (small)
+    \begin{scope}[shift={(-2.5,1.0)}, scale=0.25]
+        \draw[thick, orange, domain=0:720, samples=150, smooth, variable=\t]
+            plot ({ cos(\t) }, { sin(\t) }, { 0.3*\t/360 });
+        \node[orange] at (0,-2.5) {$w=3$};
+    \end{scope}
+\end{tikzpicture}
+
+\vspace{1cm}
+
+{\Large \textbf{Mustafa Gökhan Yılmaz}}
+
+\vspace{0.3cm}
+
+{\large Independent Researcher, İzmir, Türkiye}
+
+\vspace{0.2cm}
+
+{\large ORCID: 0009-0002-6591-0163}
+
+\vspace{0.2cm}
+
+{\large \texttt{mgy421977@gmail.com}}
+
+\vspace{0.2cm}
+
+{\large \texttt{github.com/mgy421977-bit/ATHENA}}
+
+\vspace{2cm}
+
+{\large In Five Volumes}
+
+\vspace{0.3cm}
+\begin{tabular}{c}
+Volume 0: Mathematical Foundations \\
+Volume I: Physical Foundations \\
+Volume II: Particle Physics \\
+Volume III: Cosmology and Observations \\
+Volume IV: References, Appendices, and Status of Claims
+\end{tabular}
+
+\vspace{2cm}
+
+{\large July 2026}
+
+\vfill
+
+\end{titlepage}
+
+% ============================================================
+% COPYRIGHT
+% ============================================================
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+Copyright \copyright\ 2026 Mustafa Gökhan Yılmaz\\
+All rights reserved.
+\end{center}
+\vspace*{\fill}
+
+% ============================================================
+% PREFACE
+% ============================================================
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\begin{tikzpicture}[remember picture, overlay]
+    \node[opacity=0.05, scale=3] at (current page.center) {
+        \begin{tikzpicture}
+            \draw[thick, blue] (0,0) ellipse (2 and 1);
+            \draw[thick, red] (0,0) circle (0.4);
+        \end{tikzpicture}
+    };
+\end{tikzpicture}
+
+This monograph presents the ATHENA Ultimate V13.1 framework — a complete, self-contained, and mathematically rigorous unified theory of fundamental physics. The work is the culmination of a two-month effort to address the deep fragmentation of modern physics: the separation of quantum mechanics, general relativity, cosmology, and particle physics into disjoint languages.
+
+ATHENA proposes a radical yet elegant solution: all observed phenomena — from the mass of an electron to the rotation of galaxies, from the expansion of space to the nature of gauge symmetries — arise from a single, coherent principle. That principle is the topological organization of the electromagnetic vacuum on a toroidal manifold $T^2$.
+
+The framework begins from topology, not from fields or particles. A single scalar field $\Phi(x)$, defined on $T^2$, carries a winding number $w$ that classifies all stable configurations. From this winding number, we derive:
+
+\begin{itemize}
+    \item The gauge groups of the Standard Model: $SU(3)_c$ from the $w=1$ trefoil knot, $U(1)_Y$ from the $w=2$ toroidal soliton, and $SU(2)_L$ from the $w=3$ chiral resonance.
+    \item Spin-1/2 and Fermi-Dirac statistics via the Topological Tensor Ascent (TTA).
+    \item All particle masses from a single toroidal soliton energy integral.
+    \item Gravity as an emergent effect of the vacuum pressure gradient.
+    \item Cosmological expansion as topological involution — the universe folds inward into increasing complexity.
+    \item Dark matter and dark energy as shadows of the electromagnetic layered vacuum.
+\end{itemize}
+
+The entire theory is built on a single free parameter, $\alpha = 0.36 \pm 0.03$, the disformal coupling constant. All other constants — $\beta_0$, $Z_0$, $\gamma_0$, $R_c$, $f_a$, $a_0$ — are derived from the topological Casimir energy of $T^2$.
+
+% ---- Visual summary of the logical flow ----
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[>=stealth, node distance=1.2cm, auto,
+    box/.style={rectangle, draw, thick, fill=blue!10, text width=2.8cm, align=center, rounded corners, minimum height=0.8cm},
+    arrow/.style={->, thick, blue!60!black}]
+
+    \node[box] (topo) {Topology\\ $T^2, w$};
+    \node[box, right=of topo] (geom) {Geometry\\ Trefoil, Soliton};
+    \node[box, right=of geom] (gauge) {Gauge Groups\\ $SU(3),U(1),SU(2)$};
+    \node[box, below=of gauge] (spin) {Spinors \& Dirac\\ TTA};
+    \node[box, left=of spin] (mass) {Particle Masses\\ Soliton Energy};
+    \node[box, left=of mass] (grav) {Emergent Gravity\\ Vacuum Pressure};
+    \node[box, below=of grav] (cosmo) {Cosmology\\ Involution, TEMP};
+    \node[box, right=of cosmo] (obs) {Observations\\ SPARC, DESI, LISA};
+
+    \draw[arrow] (topo) -- (geom);
+    \draw[arrow] (geom) -- (gauge);
+    \draw[arrow] (gauge) -- (spin);
+    \draw[arrow] (spin) -- (mass);
+    \draw[arrow] (mass) -- (grav);
+    \draw[arrow] (grav) -- (cosmo);
+    \draw[arrow] (cosmo) -- (obs);
+
+\end{tikzpicture}
+\caption{Logical flow of the ATHENA framework: from topology to observations.}
+\label{fig:flow}
+\end{figure}
+
+This monograph is organized in five volumes, each with a distinct role:
+
+\begin{enumerate}
+    \item \textbf{Volume 0: Mathematical Foundations} — All definitions, axioms, lemmas, theorems, and complete proofs. No physical interpretation is assumed. This is the mathematical bedrock of the entire framework.
+    \item \textbf{Volume I: Physical Foundations} — The physical interpretation of the mathematical structures: the electromagnetic layered vacuum, the disformal metric, the field equations, emergent gravity, and the cosmological framework.
+    \item \textbf{Volume II: Particle Physics} — The derivation of gauge groups, fermions, and particle masses from topology. This volume includes the explicit computation of the trefoil deformation space, the Dirac equation from geometry, and the toroidal soliton mass integral.
+    \item \textbf{Volume III: Cosmology and Observations} — Comparison with observational data: SPARC rotation curves ($\chi^2 = 731.1$), the Hubble tension ($H_0^{\text{local}} = 73.2$, $H_0^{\text{early}} = 67.4$ km/s/Mpc), LISA phase shifts, Aharonov-Bohm corrections, GRB afterglows, alpha decay clustering, and cosmic dipole misalignment. Eight independent falsification tests are specified.
+    \item \textbf{Volume IV: References, Appendices, and Status of Claims} — A comprehensive bibliography of over 400 references, including classical textbooks, foundational papers, and experimental results. Appendices provide mathematical symbols, physical constants, dimensionless parameters, numerical values, units and conventions, historical documents, the ATHENA development history, and a clear status-of-claims table distinguishing mathematical theorems from model-internal derivations, phenomenological interpretations, experimentally established facts, and testable predictions.
+\end{enumerate}
+
+All numerical results presented in this monograph are computationally reproducible. The complete analysis code — including SPARC fits, LISA simulations, GRB afterglow modeling, and dipole inversion — is available at the public GitHub repository with a Zenodo DOI.
+
+The author acknowledges the collaborative support of various artificial intelligence systems during the development of this framework. All final responsibility for the content, derivations, and conclusions rests with the author.
+
+The framework is offered not as a finished dogma, but as a scientific proposal — open to scrutiny, refinement, and experimental test. If the predictions of ATHENA are confirmed, we will have taken a significant step toward understanding the unity of nature. If they are falsified, the path to a deeper theory will have been clarified.
+
+\vspace{0.5cm}
+\textit{İzmir, July 2026}
+
+\vspace{0.5cm}
+Mustafa Gökhan Yılmaz
+
+% ============================================================
+% TABLE OF CONTENTS
+% ============================================================
+
+\tableofcontents
+
+% ============================================================
+% MAIN MATTER (Placeholder for actual content)
+% ============================================================
+
+\mainmatter
+
+% ---------------------------------------------------------------------
+% In your actual master file, you will include the volumes here.
+% For example:
+%
+% \include{Volume0/volume0}
+% \include{Volume1/volume1}
+% \include{Volume2/volume2}
+% \include{Volume3/volume3}
+% \include{Volume4/volume4}
+%
+% The table of contents will then automatically list all chapters,
+% sections, and subsections from those included files.
+% ---------------------------------------------------------------------
+
+\part{Volume 0: Mathematical Foundations}
+\chapter*{Mathematical Foundations}
+\addcontentsline{toc}{chapter}{Mathematical Foundations}
+
+\part{Volume I: Physical Foundations}
+\chapter*{Physical Foundations}
+\addcontentsline{toc}{chapter}{Physical Foundations}
+
+\part{Volume II: Particle Physics}
+\chapter*{Particle Physics}
+\addcontentsline{toc}{chapter}{Particle Physics}
+
+\part{Volume III: Cosmology and Observations}
+\chapter*{Cosmology and Observations}
+\addcontentsline{toc}{chapter}{Cosmology and Observations}
+
+\part{Volume IV: References, Appendices, and Status of Claims}
+\chapter*{References, Appendices, and Status of Claims}
+\addcontentsline{toc}{chapter}{References, Appendices, and Status of Claims}
+
+\end{document}
