@@ -17,6 +17,8 @@
 - **Mathematical Rigor:** Full definitions, axioms, lemmas, theorems and complete proofs in Volume 0
 - **Reproducibility:** All numerical results computationally reproducible (SPARC fits, LISA simulations, GRB afterglows, dipole inversion)
 
+**V8.1 klasörü tamamen kaldırılmıştır.** Artık sadece V13.1 aktif geliştirme ve referans sürümdür.
+
 ---
 
 ## Core Principle
@@ -81,7 +83,6 @@ Phase shift under 2π rotation for w=2: ψ(θ + 2π) = −ψ(θ) (defining prope
 ```text
 ATHENA/
 ├── v13.1/                    # Latest complete monograph (V13.1)
-├── V8.1/                     # Archived previous development version
 ├── athena/                   # Core Python simulation package
 ├── simulations/              # Numerical pipelines (SPARC, dipole inversion, GRB, etc.)
 ├── docs/                     # Technical documentation & falsification tests
