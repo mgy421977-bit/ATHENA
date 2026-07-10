@@ -124,11 +124,9 @@ python scripts/run_sparc_fit.py
   title = {ATHENA Ultimate V13.1: A Unified Topo-Geometric Framework for Fundamental Physics},
   year = {2026},
   url = {https://github.com/mgy421977-bit/ATHENA},
-  doi = {10.5281/zenodo.[INSERT_YOUR_NEW_DOI_HERE]}
+  doi = {10.5281/zenodo.21257143}
 }
 ```
-
-**Replace [INSERT_YOUR_NEW_DOI_HERE] with the actual Zenodo DOI.**
 
 ---
 
