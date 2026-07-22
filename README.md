@@ -1,146 +1,135 @@
-# ATHENA Ultimate V13.1
+ATHENA Ultimate V14
 
-**A Unified Topo-Geometric Framework for Fundamental Physics**
+A Unified Topo-Geometric Framework for Fundamental Physics
 
-**Author:** Mustafa Gökhan Yılmaz  
-**ORCID:** 0009-0002-6591-0163  
-**Affiliation:** Independent Researcher, İzmir, Türkiye  
-**Email:** mgy421977@gmail.com
+⸻
 
----
+Overview
 
-## Current Status (July 2026)
+ATHENA (Advanced Topological Hypothesis for Electromagnetic and Natural Architecture) is an independent theoretical research framework investigating the relationship between topology, electromagnetic vacuum structure, emergent gravity, gauge symmetries, cosmology, and fundamental interactions.
 
-- **Version:** ATHENA Ultimate V13.1 (Five-Volume Complete Monograph)
-- **Status:** Published on Zenodo
-- **Pages:** 137+
-- **Mathematical Rigor:** Full definitions, axioms, lemmas, theorems and complete proofs in Volume 0
-- **Reproducibility:** All numerical results computationally reproducible (SPARC fits, LISA simulations, GRB afterglows, dipole inversion)
+Version 14 represents the latest public release of the ATHENA research program and supersedes previous public versions while preserving earlier releases for historical reference.
 
-**V8.1 klasörü tamamen kaldırılmıştır.** Artık sadece V13.1 aktif geliştirme ve referans sürümdür.
+⸻
 
----
+Current Release
 
-## 📁 v13.1 Klasörü İçeriği
+Item	Value
+Version	ATHENA Ultimate V14
+Status	Public Research Release
+DOI	https://doi.org/10.5281/zenodo.21475363
+Author	Mustafa Gökhan Yılmaz
+ORCID	0009-0002-6591-0163
+Affiliation	Independent Researcher – İzmir, Türkiye
 
-- `V13.1 Tam .pdf` — Tam 137+ sayfalık beş ciltlik monografi
-- `V13.1 Kapak.tex` + Volume 0-4 LaTeX kaynak dosyaları
+⸻
 
-Tüm kaynak kodlar ve PDF repo’da mevcut.
+Research Areas
 
----
+ATHENA investigates theoretical models involving:
 
-## Core Principle
+* Topological vacuum dynamics
+* Toroidal manifold geometry
+* Electromagnetic vacuum organization
+* Gauge symmetry emergence
+* Topological tensor ascent
+* Emergent gravity
+* Cosmological evolution
+* Resonance-based mathematical structures
+* Computational simulations
+* Mathematical consistency tests
 
-All fundamental phenomena arise from the **topological organization of the electromagnetic vacuum on the toroidal manifold T²**.
+⸻
 
-A single scalar field Φ(θ,ϕ) with winding number *w* on T² generates:
-- Gauge groups of the Standard Model
-- Spin-1/2 fermions via Topological Tensor Ascent (TTA)
-- Particle masses from toroidal soliton energy
-- Gravity as emergent vacuum pressure gradient
-- Cosmological expansion as topological involution
+Repository Structure
 
-**Only free parameter:** α = 0.36 ± 0.03 (disformal coupling constant).  
-All other constants (β₀, Z₀, γ₀, R_c, f_a, a_0) are derived from the topological Casimir energy of T².
-
----
-
-## Key Mathematical & Physical Results
-
-### Topological Foundations (Volume 0)
-- **Toroidal Manifold:** T² = S¹ × S¹ with aspect ratio β = r/R
-- **Casimir Energy Regularization:** 
-  \[ E_{\text{vac}} = -\frac{\pi}{12R} \left( \beta + \frac{1}{\beta} \right) \]
-- **β₀ Derivation (Topological Stability):** 
-  \[ \beta_0 (2 - \beta_0) = \frac{\pi}{12} \quad \Rightarrow \quad \beta_0 \approx 0.1408 \]
-- **Locked Constants:**
-  - Z₀ ≈ 0.2347 (from 5 symmetry-breaking stages / 3 spatial dimensions)
-  - R_c ≈ 23.67 kpc (non-local screening length)
-  - f_a ≈ 2.7 × 10^{-29} eV
-  - a_0 ≈ 1.1 × 10^{-10} m/s^{2}
-
-### Topological Tensor Ascent (TTA)
-Tensor rank increases with winding number:
-- w = 1 → Rank-0 (scalar)
-- w = 2 → Rank-1 (vector/spinor) → **Spin-1/2 + Fermi-Dirac statistics**
-- w = 3 → Rank-2 (matrix) → Gauge bosons
-
-Phase shift under 2π rotation for w=2: ψ(θ + 2π) = −ψ(θ) (defining property of spin-1/2).
-
-### Gauge Group Derivations
-- **SU(3)_c** ← w = 1 trefoil knot
-- **U(1)_Y** ← w = 2 toroidal soliton
-- **SU(2)_L** ← w = 3 chiral resonance
-
-### Cosmological Theorems
-- **Topological Involution:** Universe folds inward into increasing complexity
-- **TEMP Theorem** (Topological Entropy Minimization Principle): Stable configurations prefer powers of two (w = 1,2,4,8,…)
-- **Modified Hubble Equation** derived from topological pressure
-
-### Observational Comparisons (Volume III)
-- **SPARC Rotation Curves:** χ² = 731.1 (excellent fit with emergent gravity + TTA screening)
-- **Hubble Tension:** H_local⁰ ≈ 73.2 km/s/Mpc vs H_early⁰ ≈ 67.4 km/s/Mpc → resolved via topological effects
-- Additional tests: LISA phase shifts, Aharonov-Bohm corrections, GRB afterglows, alpha decay clustering, cosmic dipole misalignment
-
-**Eight independent falsification tests** are explicitly specified.
-
----
-
-## Repository Structure
-
-```text
 ATHENA/
-├── v13.1/                    # Latest complete monograph (V13.1) + LaTeX source + PDF
-├── athena/                   # Core Python simulation package
-├── simulations/              # Numerical pipelines (SPARC, dipole inversion, GRB, etc.)
-├── docs/                     # Technical documentation & falsification tests
-├── manifesto/                # Earlier conceptual & philosophical documents
-├── scripts/                  # Execution scripts (e.g. run_sparc_fit.py)
-├── LICENSE
-├── README.md
+│
+├── v14/                 Current ATHENA V14 release
+├── v13.1/               Previous reference release
+├── athena/              Core Python package
+├── simulations/         Numerical simulations
+├── docs/                Documentation
+├── scripts/             Utility scripts
+├── manifesto/           Historical research documents
 ├── requirements.txt
-└── setup.py
-```
+├── setup.py
+├── LICENSE
+└── README.md
 
----
+⸻
 
-## Quick Start
+What’s New in Version 14
 
-```bash
+* Updated scientific manuscript
+* Revised mathematical derivations
+* Improved document organization
+* Repository restructuring
+* Updated Zenodo publication
+* New DOI assignment
+* Improved documentation
+* Repository cleanup
+
+⸻
+
+Installation
+
+Clone the repository:
+
 git clone https://github.com/mgy421977-bit/ATHENA.git
 cd ATHENA
+
+Install dependencies:
+
 pip install -r requirements.txt
-python scripts/run_sparc_fit.py
-```
 
----
+⸻
 
-## Citation
+Citation
 
-```bibtex
-@software{yilmaz2026athena_v13_1,
+If you use this work, please cite:
+
+@software{yilmaz2026athena_v14,
   author = {Yılmaz, Mustafa Gökhan},
-  title = {ATHENA Ultimate V13.1: A Unified Topo-Geometric Framework for Fundamental Physics},
+  title = {ATHENA Ultimate V14},
   year = {2026},
-  url = {https://github.com/mgy421977-bit/ATHENA},
-  doi = {10.5281/zenodo.21257143}
+  doi = {10.5281/zenodo.21475363},
+  url = {https://github.com/mgy421977-bit/ATHENA}
 }
-```
 
----
+⸻
 
-## Acknowledgments
+License
 
-Developed with collaborative support from advanced AI systems (Grok by xAI and others). Final responsibility for all content, derivations, and conclusions rests with the author.
+This project is distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.
 
----
+⸻
 
-## License
+Research Notice
 
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+ATHENA is an independent theoretical research project intended to stimulate scientific discussion, mathematical analysis, computational validation, and critical review.
 
----
+The repository is maintained as an open research archive to encourage transparency, reproducibility where applicable, and constructive academic engagement.
 
-**Last updated:** July 2026  
-*Independent verification, constructive criticism, and scientific discussion are strongly encouraged.*
+⸻
+
+Author
+
+Mustafa Gökhan Yılmaz
+
+Independent Researcher
+
+ORCID: 0009-0002-6591-0163
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.21475363
+
+GitHub Repository:
+https://github.com/mgy421977-bit/ATHENA
+
+⸻
+
+Last Updated: July 2026
+
+Independent verification, constructive criticism, and scientific discussion are welcome.
+
