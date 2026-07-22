@@ -1,94 +1,68 @@
-ATHENA Ultimate V14
+# ATHENA Ultimate V14
 
-A Unified Topo-Geometric Framework for Fundamental Physics
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21475363.svg)](https://doi.org/10.5281/zenodo.21475363)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202026-success)]()
 
-⸻
+**A Unified Topo-Geometric Framework for Fundamental Physics**
 
-Overview
+ATHENA (Advanced Topological Hypothesis for Electromagnetic and Natural Architecture), toroidal manifold geometry, disformal scalar vacuum field ve emergent gravity üzerine odaklanan bağımsız bir teorik araştırma çerçevesidir.
 
-ATHENA (Advanced Topological Hypothesis for Electromagnetic and Natural Architecture) is an independent theoretical research framework investigating the relationship between topology, electromagnetic vacuum structure, emergent gravity, gauge symmetries, cosmology, and fundamental interactions.
+---
 
-Version 14 represents the latest public release of the ATHENA research program and supersedes previous public versions while preserving earlier releases for historical reference.
+## ✨ Features
 
-⸻
+- Toroidal vakum dinamikleri
+- Rotation curve fitting (SPARC verileri)
+- Matematiksel tutarlılık ve falsification testleri
+- Detaylı simülasyonlar ve dokümantasyon
 
-Current Release
+---
 
-Item	Value
-Version	ATHENA Ultimate V14
-Status	Public Research Release
-DOI	https://doi.org/10.5281/zenodo.21475363
-Author	Mustafa Gökhan Yılmaz
-ORCID	0009-0002-6591-0163
-Affiliation	Independent Researcher – İzmir, Türkiye
+## 🚀 Quick Start
 
-⸻
-
-Research Areas
-
-ATHENA investigates theoretical models involving:
-
-* Topological vacuum dynamics
-* Toroidal manifold geometry
-* Electromagnetic vacuum organization
-* Gauge symmetry emergence
-* Topological tensor ascent
-* Emergent gravity
-* Cosmological evolution
-* Resonance-based mathematical structures
-* Computational simulations
-* Mathematical consistency tests
-
-⸻
-
-Repository Structure
-
-ATHENA/
-│
-├── v14/                 Current ATHENA V14 release
-├── v13.1/               Previous reference release
-├── athena/              Core Python package
-├── simulations/         Numerical simulations
-├── docs/                Documentation
-├── scripts/             Utility scripts
-├── manifesto/           Historical research documents
-├── requirements.txt
-├── setup.py
-├── LICENSE
-└── README.md
-
-⸻
-
-What’s New in Version 14
-
-* Updated scientific manuscript
-* Revised mathematical derivations
-* Improved document organization
-* Repository restructuring
-* Updated Zenodo publication
-* New DOI assignment
-* Improved documentation
-* Repository cleanup
-
-⸻
-
-Installation
-
-Clone the repository:
-
+```bash
 git clone https://github.com/mgy421977-bit/ATHENA.git
 cd ATHENA
-
-Install dependencies:
-
 pip install -r requirements.txt
+pip install -e .          # editable modda kurulum
+```
 
-⸻
+Daha fazla bilgi için [Quickstart →](docs/quickstart.md)
 
-Citation
+---
 
-If you use this work, please cite:
+## 📁 Repository Structure
 
+```
+ATHENA/
+├── athena/              # Core Python package
+├── simulations/         # Numerical simulations
+├── docs/                # Documentation
+├── scripts/             # Utility scripts
+├── v14/                 # Current release
+├── manifesto/           # Historical documents
+├── tests/               # Test suite
+├── setup.py
+└── requirements.txt
+```
+
+---
+
+## 📖 Documentation
+
+- [Physics Overview](docs/physics.md)
+- [Quickstart](docs/quickstart.md)
+- [API Reference](docs/api_reference.md)
+- [Falsification Tests](docs/falsification_tests.md)
+- [Installation](docs/installation.md)
+
+---
+
+## 📊 Citation
+
+```bibtex
 @software{yilmaz2026athena_v14,
   author = {Yılmaz, Mustafa Gökhan},
   title = {ATHENA Ultimate V14},
@@ -96,40 +70,19 @@ If you use this work, please cite:
   doi = {10.5281/zenodo.21475363},
   url = {https://github.com/mgy421977-bit/ATHENA}
 }
+```
 
-⸻
+---
 
-License
+**Author:** Mustafa Gökhan Yılmaz  
+**ORCID:** 0009-0002-6591-0163  
+**Affiliation:** Independent Researcher – İzmir, Türkiye
 
-This project is distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.
+---
 
-⸻
+**Contribution & Discussion**  
+Constructive criticism, code contributions ve scientific discussion çok memnuniyetle karşılanır. Issue açmaktan veya PR göndermekten çekinmeyin.
 
-Research Notice
+---
 
-ATHENA is an independent theoretical research project intended to stimulate scientific discussion, mathematical analysis, computational validation, and critical review.
-
-The repository is maintained as an open research archive to encourage transparency, reproducibility where applicable, and constructive academic engagement.
-
-⸻
-
-Author
-
-Mustafa Gökhan Yılmaz
-
-Independent Researcher
-
-ORCID: 0009-0002-6591-0163
-
-Zenodo DOI:
-https://doi.org/10.5281/zenodo.21475363
-
-GitHub Repository:
-https://github.com/mgy421977-bit/ATHENA
-
-⸻
-
-Last Updated: July 2026
-
-Independent verification, constructive criticism, and scientific discussion are welcome.
-
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
