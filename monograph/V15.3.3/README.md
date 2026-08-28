@@ -3,23 +3,33 @@
 **Controlled Mathematical-Physics Research Release**  
 27 August 2026
 
-## Contents (to be uploaded by author)
+## Monograph
 
-- `ATHENA_Ultimate_V15.3.3.pdf` — Full monograph
-- `src/` — LaTeX source files (optional but recommended)
+- **[ATHENA_Ultimate_V15_3_3 (3).pdf](ATHENA_Ultimate_V15_3_3%20(3).pdf)** — Full monograph (Volumes 0–IV + Stage 5 audit)
+
+> Preferred clean filename: `ATHENA_Ultimate_V15.3.3.pdf`  
+> (You can rename it directly on GitHub if desired.)
 
 ## Status Summary
 
 This is a **controlled research release**.
 
-- Frozen core: Einstein–Hilbert + one real compact scalar + pure-disformal metric
-- Internal $T^2$ = configuration space (not extra spacetime dimension)
-- Explicit separation of DERIVED / CONDITIONAL / OPEN / NO-GO results
-- Derrick obstruction acknowledged (previous soliton mass route is NO-GO)
-- Not a completed unified theory, not experimentally validated
+| Item | Status |
+|------|--------|
+| Frozen core (Einstein–Hilbert + compact scalar + pure-disformal metric) | Active |
+| Internal $T^2$ as configuration space | Declared |
+| Rank-one disformal geometry & ADM closure | DERIVED |
+| Source-free stability limits | DERIVED |
+| Derrick obstruction (static soliton mass route) | **NO-GO** |
+| Particle-mass construction | **NO-GO / OPEN** |
+| Full matter / neutrino / perturbation sector | OPEN |
+| Observational fits (SPARC etc.) | Targets pending independent reproduction |
+| Experimental validation | Not claimed |
 
-See the main repository [README.md](../../README.md) and [REPO_STRUCTURE.md](../../REPO_STRUCTURE.md) for the overall status ledger and target organisation.
+The release does **not** claim a completed unified theory, a Standard Model derivation, or emergent gravity as a finished result.
+
+See the main repository [README.md](../../README.md) and [REPO_STRUCTURE.md](../../REPO_STRUCTURE.md) for the full status ledger and target organisation.
 
 ---
 
-*Placeholder created so the author can upload the PDF and sources.*
+*Author: Mustafa Gökhan Yılmaz — İzmir, Türkiye*

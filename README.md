@@ -36,6 +36,9 @@ The release **does not claim**:
 
 Unspecified sectors (neutrino, higher operators, full perturbations, lensing, growth, waveforms) remain explicitly open.
 
+**Full monograph (PDF):**  
+[monograph/V15.3.3/ATHENA_Ultimate_V15_3_3 (3).pdf](monograph/V15.3.3/ATHENA_Ultimate_V15_3_3%20(3).pdf)
+
 ---
 
 ## Key Mathematical Results (V15.3.3)
@@ -57,38 +60,24 @@ Full status tables are inside the monograph (Appendix F, Stage 5 ledgers, and Ap
 
 ---
 
-## Repository Structure (Proposed / Target)
+## Repository Structure
 
 ```text
 ATHENA/
-├── README.md                 # This file
-├── LICENSE
-├── CHANGELOG.md
-├── requirements.txt
-├── environment.yml           # (to be added)
-├── setup.py
-│
-├── docs/
-│   ├── physics.md
-│   ├── status_ledger.md      # Machine-readable status summary
-│   ├── quickstart.md
-│   └── falsification.md
-│
+├── README.md
+├── REPO_STRUCTURE.md
 ├── monograph/
-│   ├── V15.3.3/              # Current controlled release (PDF + LaTeX source)
-│   ├── V14/                  # Archived
-│   └── historical/           # Older versions
-│
-├── athena/                   # Core Python package (algebraic identities, FLRW, disformal utils)
-├── simulations/              # Numerical experiments (source-free limits, stability checks)
-├── scripts/                  # Utility & reproducibility scripts
-├── tests/                    # Unit tests for algebraic identities and source-free limits
-│
-└── data/                     # (placeholder) SPARC catalogues, checksums, reference outputs
+│   ├── V15.3.3/          # Current controlled release (PDF)
+│   ├── V14/              # Archived
+│   └── historical/
+├── athena/               # Core Python package
+├── simulations/
+├── scripts/
+├── tests/
+└── docs/
 ```
 
-> **Note:** As of this commit the public tree still largely reflects the V14 layout.  
-> The structure above is the target organisation for the V15.3.3 controlled release.
+See [REPO_STRUCTURE.md](REPO_STRUCTURE.md) for the full target organisation and migration notes.
 
 ---
 
